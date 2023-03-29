@@ -1,0 +1,4 @@
+gem install jekyll bundler
+jekyll new .
+bundle exec jekyll serve --livereload
+curl http://localhost:4000
