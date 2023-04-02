@@ -39,6 +39,8 @@ sideboard strategies, and then i quickly describe how the tournament rolled out,
 unveils throught the tournaments.
 
 ## The deck
+![The deck](./../../../../assets/images/image.png)
+
 The deck i played was Altar Tron, which is a combo deck, based on the infamous Urza's Land that features Ashnod's Altar + Myr Retriever 
 synergy to make a large amount of artifacts etb, a tremendous number of spells casted, an infinite death triggers and so on.
 I chose this deck because i really like combo decks (if you want to play Aggro, play Heartstone) and i love artifacts, and it features
@@ -61,10 +63,7 @@ since it has the ability to tutor Myr Retriever, which is a key part of the comb
 With this new addition, the deck can drop the midrangy strat of drawing cards for eventually assemble the combo, and start to have a more combo-oriented 
 settings, where its focus was shifted from '**survive as long as possible**' to '**kill as fast as i can**'
 
-## Philosphy 
-
-## The deck
-![The deck](./../../../../assets/images/image.png)
+## Philosphy
 Below a brief description of card choice:
 
 **Combo part**:
