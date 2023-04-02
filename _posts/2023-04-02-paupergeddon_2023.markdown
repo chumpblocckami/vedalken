@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "Paupergeddon 2023"
+date:   2023-04-2 19:00:00 +0200
+categories: article
+published: true
+---
+
+First publication: _2023-04-2 19:00:00_
+
+Last review: _tbd_
+
+![Myr retriever](./../assets/images/myr_retriever.jpg)
+
+## Summary: 
+- Introduction
+- [The deck](#the-deck)
+  - Brief History
+  - Philosophy
+  - Maindeck choices
+  - Sideboard choices
+  - Play pattern
+  - Match ups
+- The tournament:
+  - Swiss
+  - Top8
+- Conclusion
+- Acknowledgments
+
+## Introduction 
+Paupergeddon Lecco which took place 26 March 2023 was the biggest Pauper Tournament ever registered, with 600+ players 
+from all over Europe attending the event; the day featured 10 round of swiss, which started at 9.30 AM and continued until
+22 PM, when top8 was announced.
+I was good and lucky enought to be the last man standing, completed the swiss with a record of 8-1-1, and declared the winner
+after another 3 winnings in the top8. For clarity, we split top4 (prizes after splitting where 1.3k in MKM coupon, 3 Secret Lairs and some goodies)
+but we decide to play for the declaring the winner.
+In this brief blogpost, i'll cover the deck that i played, Altar Tron, some deckbuilding choiches, match up analysis and
+sideboard strategies, and then i quickly describe how the tournament rolled out, which archetypes i faced and how the games 
+unveils throught the tournaments.
+
+## The deck
+The deck i played was Altar Tron, which is a combo deck, based on the infamous Urza's Land and Ashnod's Altar + Myr Retriever 
+combo. 
+
+
+Swiss: 8-1-1
+Match up:
+1. Dimir Terror
+2. Hexproof
+3. Affinity
+4. Boros Synth
+5. MonoR Kuldotha
+6. MonoU
+7. MonoU 
+8. Affinity
+9. Walls Combo
+10. RB Madness
+
+Top8: MonoBlack Khalni
+
+Top4: Boros Synth
+
+Top2: Fog Tron @AAdeptoTerra
