@@ -135,7 +135,8 @@ assuming that i had to cut one of the tutors for crop, i analyzed proes and cons
 | Best scenario | 2 urza's | 2 urza's, land, color| Colorless in top5 |
 
 
-2. Makeshift Munitions:
+2. **Makeshift Munitions**
+
 In early draft, i played Makeshift Munitions as a 1 ofs for being able to win on the spot vs. decks that fog locks or decks 
 that can burn you out to death if you assemble the infinite golem combo instead of infinite life. I quickly realized that 
 lots of my victory didn't depend on munitions, so i cut it in favor of other cards that fits better in the strategy, and i 
@@ -145,7 +146,8 @@ dropped, so action like sacrifice a myr with munitions to make a point of damage
 since in that spot you likely to have combo. Munitions also don't shine vs. faeries or other decks with small creature, since the
 primary function of our artifact is to filter color, and not being launched to opponent's creatures. 
 
-3. Blood Fountain
+3. **Blood Fountain**
+
 From the day1, i've not been a fan of the black artifact, since it requires a lot of effort and a particulary board state to make it 
 good: most of the time, it's a 1B cards that discards one and draw one, and that's not very appealing. In the previous build, where
 the plan was to be the value/midrange deck, the one mana artifact was a nice addition, but to me can be replaced with more impactful 
@@ -157,32 +159,38 @@ assembling the combo as fast as it can, the full combo with Foundry is not alway
 is very hard and unlikely. In a build with the full set of Energy Refractor, Makeshift Munitions and full set of all the combo pieces,
 can be a good addition, but good luck fit everything in a 60 cards deck.
 
-4. Faithless Looting
+4. **Faithless Looting**
+
 Faithless Loothing is just a worst version of Ancient Stirrings: the discard clause is very bad for this build, since you
 don't have a number of cards that are better in the graveyard than in hand, and also with a low land count you'll probably 
 find yourself discarding spell that somehow you want to cast. In previous build with Mystical Teachings or Conjurer's Bauble, 
 i can see an weak argument in playing some copies of this spell, but it's hard to justify a slot for this card. 
-5. Reckoner's Bargain
+
+5. **Reckoner's Bargain**
 Reckoner's Bargain is taking the 5-6th slots of Deadly Dispute, but more sacrifice clause requires more cheap artifact to sacrifice,
 and more colored spell required more colored fixing/mana source: stated all this requirements, to me is not optimal to play 
 a weaker version of Deadly Dispute that also requires some other structural fixes, so i'll end up cutting the black draw engine.
-6. Foundry Inspector 
+
+6. **Foundry Inspector **
 This card doesn't fit well in the deck since it don't add density or depth, since don't solve a particular problem that the 
 deck is facing or other similar issue, it's just another piece to add for making infinite mana without Golem Foundry, but it also
 is more vulnerable compared to the three-mana artifact since it's a creature with a mediocre body. It will probably be somewhat 
 playable if the meta will shift towards more linear decks, without lots of removal or burn spells; in all other cases, i think that
 this artifact is not worth a spot in this list.
-7. Dross Skullbomb / Conjurer's Bauble
+
+7. **Dross Skullbomb / Conjurer's Bauble**
 These cards has all the cons of Blood Fountains, except one cons that they are colorless, so can be tutor with Ancient Stirrings:
 to me, this peculiarity is not enough to secure a slot in the list. Conjurer's Bauble has also the cons to be a ready to sacrifice
 artifact, that is good with Fangren Marauder, but again to me it doesn't make the cut, since except for this fringe spot, it's
 not a very good card in generale (we're not playing Eggs Tron).
-8. Bitter Reunion
+
+8. **Bitter Reunion**
 This card is somehow similar to Makeshift Munitions in closing the game on the spot, and it also more usefull if drawn before 
 comboing off, since lets you grant a card for a cost of a spare land or a bad card in hand. However, this card has the same cons of
 Munitions: it requires the assemble of 4 cards + him + color source, and still lose to fog lock, which are one of the thing
 than munitions tries to beat.
-9. Impact Tremors / Reckless Fireweaver
+
+9. **Impact Tremors / Reckless Fireweaver**
 These cards where my primary choice when i tested the deck on MTGO, since are very good to close the game time is a constraint:
 they are a good choice since doesn't require a Golem Foundry, because they also win with Ashnod + 2 Myr Retriever. I like the most
 the creature, because it can be seen as a 5th Golem Foundry, that it's good also on his own, grinding life points for every artifact
