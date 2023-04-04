@@ -1,88 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/vedalken/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/vedalken/" rel="alternate" type="text/html" /><updated>2023-04-02T20:45:07+02:00</updated><id>http://localhost:4000/vedalken/feed.xml</id><title type="html">Vedalken</title><subtitle>Mining Pauper one alghoritm at time.</subtitle><entry><title type="html">Paupergeddon 2023</title><link href="http://localhost:4000/vedalken/paupergeddon/2023" rel="alternate" type="text/html" title="Paupergeddon 2023" /><published>2023-04-01T19:00:00+02:00</published><updated>2023-04-01T19:00:00+02:00</updated><id>http://localhost:4000/vedalken/paupergeddon/paupergeddon_2023</id><content type="html" xml:base="http://localhost:4000/vedalken/paupergeddon/2023"><![CDATA[<p>First publication: <em>2023-04-2 19:00:00</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/vedalken/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/vedalken/" rel="alternate" type="text/html" /><updated>2023-04-05T00:36:21+02:00</updated><id>http://localhost:4000/vedalken/feed.xml</id><title type="html">Vedalken</title><subtitle>Mining Pauper one alghoritm at time.</subtitle><entry><title type="html">Paupergeddon 2023</title><link href="http://localhost:4000/vedalken/paupergeddon/2023" rel="alternate" type="text/html" title="Paupergeddon 2023" /><published>2023-04-01T19:00:00+02:00</published><updated>2023-04-01T19:00:00+02:00</updated><id>http://localhost:4000/vedalken/paupergeddon/paupergeddon_2023</id><content type="html" xml:base="http://localhost:4000/vedalken/paupergeddon/2023"><![CDATA[<h1 id="paupergeddon-lecco-2023-report-and-spieghino">Paupergeddon Lecco 2023: Report and spieghino</h1>
 
 <p><img src="https://cards.scryfall.io/art_crop/front/e/e/ee766f7b-4e9c-442d-bf53-31c204646449.jpg?1562162476" alt="Myr retriever" /></p>
 
-<h2 id="summary">Summary:</h2>
+<blockquote>
+  <p><em>Chi vince gode, chi perde spiega</em></p>
+</blockquote>
 
-<ul>
-  <li>Introduction</li>
-  <li><a href="#the-deck">The deck</a>
-    <ul>
-      <li>Brief History</li>
-      <li>Philosophy</li>
-      <li>Maindeck choices</li>
-      <li>Sideboard choices</li>
-      <li>Play pattern</li>
-      <li>Match ups</li>
-    </ul>
-  </li>
-  <li>The tournament:
-    <ul>
-      <li>Swiss</li>
-      <li>Top8</li>
-    </ul>
-  </li>
-  <li>Conclusion</li>
-  <li>Acknowledgments</li>
-</ul>
+<h1 id="table-of-contents">Table of Contents:</h1>
+
+<ol>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#history">History</a></li>
+  <li><a href="#build">Build</a></li>
+  <li><a href="#maindeck">Maindeck</a></li>
+  <li><a href="#sideboard">Sideboard</a></li>
+  <li><a href="#tournament">Tournament</a></li>
+  <li><a href="#last-words">Last Words</a></li>
+  <li><a href="#acknowledgments">Acknowledments</a></li>
+  <li><a href="#review-history">Review history</a></li>
+</ol>
 
 <h2 id="introduction">Introduction</h2>
 
-<p>Paupergeddon Lecco which took place 26 March 2023 was the biggest Pauper Tournament ever registered, with 600+ players
-from all over Europe attending the event; the day featured 10 round of swiss, which started at 9.30 AM and continued
-until
-22 PM, when top8 was announced.
-I was good and lucky enought to be the last man standing, completed the swiss with a record of 8-1-1, and declared the
-winner
-after another 3 winnings in the top8. For clarity, we split top4 (prizes after splitting where 1.3k in MKM coupon, 3
-Secret Lairs and some goodies)
-but we decide to play for the declaring the winner.
-In this brief blogpost, i’ll cover the deck that i played, Altar Tron, some deckbuilding choiches, match up analysis and
-sideboard strategies, and then i quickly describe how the tournament rolled out, which archetypes i faced and how the
-games
-unveils throught the tournaments.</p>
+<p>Paupergeddon Lecco, which took place 26 March 2023, was the biggest Pauper Tournament ever registered, with 600+ players
+from all over Europe attending the event; the day featured a 10 round swiss with a top8 cut.
+The tournament started at 9.30 AM: the swiss finished approximately ad 23 PM, and the last card in the final was
+slinghed at 2 AM.
+I was good and lucky enough to be the last man standing, completed the swiss with a record of 8-1-1, and i was declared
+winner after another 3 rounds in the top8. For clarity, we split top4 (prizes after splitting where something near 1.3k
+in MKM coupon, 3 Secret Lairs and some goodies) but we decide to play for the declaring the winner.
+In this brief blogpost, i’ll cover some points about the deck I played, Altar Tron, including deck building choices,
+match up analysis, sideboard strategies, and then I quickly describe how the tournament rolled out, which archetypes I
+faced and how the games unveils throughout the tournament.</p>
 
-<h2 id="the-deck">The deck</h2>
-
-<p><img src="./../assets/images/image.png" alt="The deck" /></p>
-
-<p>The deck i played was Altar Tron, which is a combo deck, based on the infamous Urza’s Land that features Ashnod’s
-Altar + Myr Retriever
-synergy to make a large amount of artifacts etb, a tremendous number of spells casted, an infinite death triggers and so
-on.
-I chose this deck because i really like combo decks (if you want to play Aggro, play Heartstone) and i love artifacts,
-and it features
-both: i also thought that the deck was the sleeper of the meta, since on MTGO don’t see a lots of play for time
-constraints and in-game
-click intensity.</p>
-
-<h2 id="brief-history">Brief history</h2>
+<h2 id="history">History</h2>
 
 <p>The archetype made is timid debut right after the unified pauper announcement, where paper common and mtgo common where
-made pauper playable
-for both the play mode, making one large shared card pool: Ashnod Altar became legal, and ignite some interest in
-deckbuilders all over the community.
-The first list were based on midrange strategies, with the aim to deploy a large amount of 3/3 golems from Goldem
-Foundry thanks to the big amount of
+made playable for both the play modes, making one large shared card pool.
+The new additions, such as Ashnod Altar, ignite some interest in deckbuilders all over the community, but it took some
+time and mtgo tix to actually make the deck work.
+The idea of the deck is simple: deploy a large amount of 3/3 golems from Golem Foundry thanks to the big amount of
 triggers made possible from 2 Myr Retriever and Ashnod’s Altar.
-Since there was only 4 copies of the myr, the combo wasn’t very fast, so the strategy was based around drawing cards and
-survive thanks to
-Weather the Storm and Fangren Marauder, since the deck features lots of cheap, sacrifice-fooder artifacts.
-Player had some moderate success with this strategy, also me, where i Top16 Paupergeddon Pisa with
-a <a href="https://www.mtggoldfish.com/deck/4930842">list</a> that represent the afromentioned strategy.
-From there, nothing really has changed, and the new lists that on and off appears online were no different in the core
-but differs from the support cards,
-playing more draw cards or more utilities.
-The turning point for the archetype starts with the spoiler
-of <a href="https://scryfall.com/card/one/236/myr-kinsmith">Myr Kinsmith</a>, a card that a first sight don’t
-say much, since it’s an highly cost tutor for a very specific tribe that don’t have much fortune in Pauper, but it
-quickly became another key point of the deck,
-since it has the ability to tutor Myr Retriever, which is a key part of the combo, really fasten the deck.
-With this new addition, the deck can drop the midrangy strat of drawing cards for eventually assemble the combo, and
-start to have a more combo-oriented
-settings, where its focus was shifted from ‘<strong>survive as long as possible</strong>’ to ‘<strong>kill as fast as i can</strong>’</p>
+The first approaches get ideas from another combo Tron Builds, Eggs Tron, which also play a combo plan with Golem
+Foundry, but it differs from the strategy; the first lists were based on midrange strategies, where the goal was to
+survive and draw as many cards as possible.
+In this early stage of development, two players stands among other for they
+brews: <a href="https://twitter.com/jakeals">Saidin Raken</a>, who tirelessly tried the deck on MTGO, and Giorgio Venditti, aka
+GiorgioCombo, a player from Italy that had great success with the deck in national paper tournament.
+The lists relied heavily on Fangren Marauder or Mystical Teachings package, and they went for the midrange/control
+journey for assembling the combo: at that time, the meta were slower, and only 4 copies of the myr were avaialable,
+making the combo not particularly fast, so the strategy was based around drawing cards and survive thanks to
+Weather the Storm and Fangren Marauder, since the deck features lots of cheap and expendable artifacts.
+After finding GiorgioCombo decklist, i played his sixties and i had moderate success with that strategy, letting me
+Top16 Paupergeddon Pisa with a <a href="https://www.mtggoldfish.com/deck/4930842">list</a> that represent the afromentioned
+strategy. From there, nothing really has changed, and the new lists that on and off appears online were no different in
+the core but different from the support cards, ranging from less or more card draw, more or less utilities or metagame
+cards. The turning point for the archetype starts with the spoiler
+of <a href="https://scryfall.com/card/one/236/myr-kinsmith">Myr Kinsmith</a>, a card that a first sight don’t say much, since it’s
+an highly cost tutor for a very specific tribe that don’t have much fortune in Pauper, but it quickly became another key
+point of the deck, since it has the ability to tutor Myr Retriever, which is a key part of the combo, really fasten the
+deck. With this new addition, the deck can drop the midrangy strat of drawing cards for eventually assemble the combo,
+and start to have a more combo-oriented settings, where its focus was shifted from ‘<strong>survive as long as possible</strong>’
+to ‘<strong>kill as fast as i can</strong>’</p>
 
-<h2 id="philosphy">Philosphy</h2>
+<h2 id="main">Main</h2>
+
+<p>As introduced before, my deck’s choice was Altar Tron, which is a combo deck, based on the infamous Urza’s Land that
+features Ashnod’s
+Altar + Myr Retriever synergy to make a large amount of artifacts etb, a tremendous number of spells casted, an infinite
+death triggers and so on. I chose this deck because i really like combo decks (if you want to play Aggro, play
+Heartstone) and i love artifacts, and this deck features both: I also thought that the deck was a meta sleeper, since
+on MTGO don’t see a lots of play for time constraints and in-game click intensity.</p>
+
+<p>I choose to build the deck based on well-defined pillars:</p>
+
+<ol>
+  <li>
+    <p><em>The build must be combo-centric</em>: I was sure that the midrange strategy of the deck wasn’t optimized, and i tried to
+create a deck that was full combo plan (example:. Myr Kinsmith &gt; Mystical Teachings);</p>
+  </li>
+  <li>
+    <p><em>Play cards that are good despite opponent’s deck or turn drawn</em>: I opted to play cards that are weaker in power but
+are good every time they are drawn and in every occations, discarding card that are better but in very narrow or
+paritcular spots (example: Ancient Stirrings &gt; Faithless Loothing );</p>
+  </li>
+  <li>
+    <p><em>Do not try to beat sideboard strategy maindeck</em>: I opted to not include cards that are good vs. strategy that often
+comes in after sideboard (es. graveyard hate), both for having leaner draws and also relax the deckbuilding
+decisions (example: Blood Fountain).</p>
+  </li>
+  <li>
+    <p><em>Minimize the use of colored cards maindeck</em>: The combo is almost colorless, so the base has to be at most colorelss:
+support card that are colored has to be too good to not be included. (example: Deadly Dispute &gt; Scrapwork Mutt &gt;
+Reckoner’s Bargain)</p>
+  </li>
+  <li>
+    <p><em>Tron lands has to be 8th or 9th edition</em>: BASED. (example: old layout Tron lands are not elegant);</p>
+  </li>
+  <li>
+    <p><em>Don’t try to win against every archetype and normalize losing, but always have a plan</em>: for this part i’ll borrow
+the words from a Bryant Cook tweets, that sum ups perfectly my thought:
+<img src="./../assets/images/cant_beat_anythin.jpeg" alt="Can't beat anything" /></p>
+  </li>
+</ol>
+
+<p>With the aforementioned statements in mind, let’s see the decklist I came up with:
+<img src="https://pbs.twimg.com/media/FsLrghCWAAAM94t?format=jpg&amp;name=large" alt="The Main" /></p>
 
 <p>Below a brief description of card choice:</p>
 
@@ -141,7 +164,7 @@ are the core of the deck, and let the deck be very consistent.</p>
   <p>4 Chromatic Star 4 Chromatic Sphere 2 Energy Refractor</p>
 </blockquote>
 
-<p>These cards helps us to filter mana in order to play colored spells. I started with playing only the 8 chromatic
+<p>These cards help us to filter mana in order to play colored spells. I started with playing only the 8 chromatic
 artifact,
 but i quickly realize that i want at least 10 colored ways to make colored mana, so added 2 Energy Refractor for making
 the deck more consistent.</p>
@@ -167,10 +190,7 @@ Mire is great for cycling a card off the map, and the fengranf is literally a tu
 off a
 creature in the graveyard and also helps you fightning graveyard hate at istant speed.</p>
 
-<h2 id="the-main">The main</h2>
-
-<p><img src="https://pbs.twimg.com/media/FsLrghCWAAAM94t?format=jpg&amp;name=large" alt="The Main" />
-As for the maindeck, i think that there’s no room for improving: the slots for adding new card is very tight if not
+<p>As for the maindeck, i think that there’s no room for improving: the slots for adding new card is very tight if not
 close, since
 all the pieces are well combined to others, and removing a single card will weaken others or also the entire strategies.
 The idea of the deck is to have cards that are good in any moment of the game: from turn1 to turn10, we need to good
@@ -183,9 +203,9 @@ there’s no spot for other cards. We can replace some cards.</p>
 
 <h3 id="bonus-single-card-discussion">Bonus: Single card discussion:</h3>
 
-<ol>
+<ul>
   <li><strong>Crop Rotation</strong></li>
-</ol>
+</ul>
 
 <p>In the first drafts i played 2 Crop Rotation instead of Energy Refractor, but i quickly realize that the colored mana
 were too important, and crop was great in assembling tron, but bad after tron was assembled, despite its good synergy
@@ -229,9 +249,9 @@ assuming that i had to cut one of the tutors for crop, i analyzed proes and cons
   </tbody>
 </table>
 
-<ol>
+<ul>
   <li><strong>Makeshift Munitions</strong></li>
-</ol>
+</ul>
 
 <p>In early draft, i played Makeshift Munitions as a 1 ofs for being able to win on the spot vs. decks that fog locks or
 decks
@@ -249,9 +269,9 @@ since in that spot you likely to have combo. Munitions also don’t shine vs. fa
 since the
 primary function of our artifact is to filter color, and not being launched to opponent’s creatures.</p>
 
-<ol>
+<ul>
   <li><strong>Blood Fountain</strong></li>
-</ol>
+</ul>
 
 <p>From the day1, i’ve not been a fan of the black artifact, since it requires a lot of effort and a particulary board
 state to make it
@@ -273,9 +293,9 @@ is very hard and unlikely. In a build with the full set of Energy Refractor, Mak
 combo pieces,
 can be a good addition, but good luck fit everything in a 60 cards deck.</p>
 
-<ol>
+<ul>
   <li><strong>Faithless Looting</strong></li>
-</ol>
+</ul>
 
 <p>Faithless Loothing is just a worst version of Ancient Stirrings: the discard clause is very bad for this build, since
 you
@@ -285,19 +305,22 @@ find yourself discarding spell that somehow you want to cast. In previous build 
 Bauble,
 i can see an weak argument in playing some copies of this spell, but it’s hard to justify a slot for this card.</p>
 
-<ol>
-  <li>
-    <p><strong>Reckoner’s Bargain</strong>
-Reckoner’s Bargain is taking the 5-6th slots of Deadly Dispute, but more sacrifice clause requires more cheap
+<ul>
+  <li><strong>Reckoner’s Bargain</strong></li>
+</ul>
+
+<p>Reckoner’s Bargain is taking the 5-6th slots of Deadly Dispute, but more sacrifice clause requires more cheap
 artifact to sacrifice,
 and more colored spell required more colored fixing/mana source: stated all this requirements, to me is not optimal
 to play
 a weaker version of Deadly Dispute that also requires some other structural fixes, so i’ll end up cutting the black
 draw engine.</p>
-  </li>
-  <li>
-    <p>**Foundry Inspector **
-This card doesn’t fit well in the deck since it don’t add density or depth, since don’t solve a particular problem
+
+<ul>
+  <li><strong>Foundry Inspector</strong></li>
+</ul>
+
+<p>This card doesn’t fit well in the deck since it don’t add density or depth, since don’t solve a particular problem
 that the
 deck is facing or other similar issue, it’s just another piece to add for making infinite mana without Golem Foundry,
 but it also
@@ -306,30 +329,36 @@ be somewhat
 playable if the meta will shift towards more linear decks, without lots of removal or burn spells; in all other
 cases, i think that
 this artifact is not worth a spot in this list.</p>
-  </li>
-  <li>
-    <p><strong>Dross Skullbomb / Conjurer’s Bauble</strong>
-These cards has all the cons of Blood Fountains, except one cons that they are colorless, so can be tutor with
+
+<ul>
+  <li><strong>Dross Skullbomb / Conjurer’s Bauble</strong></li>
+</ul>
+
+<p>These cards has all the cons of Blood Fountains, except one cons that they are colorless, so can be tutor with
 Ancient Stirrings:
 to me, this peculiarity is not enough to secure a slot in the list. Conjurer’s Bauble has also the cons to be a ready
 to sacrifice
 artifact, that is good with Fangren Marauder, but again to me it doesn’t make the cut, since except for this fringe
 spot, it’s
 not a very good card in generale (we’re not playing Eggs Tron).</p>
-  </li>
-  <li>
-    <p><strong>Bitter Reunion</strong>
-This card is somehow similar to Makeshift Munitions in closing the game on the spot, and it also more usefull if
+
+<ul>
+  <li><strong>Bitter Reunion</strong></li>
+</ul>
+
+<p>This card is somehow similar to Makeshift Munitions in closing the game on the spot, and it also more usefull if
 drawn before
 comboing off, since lets you grant a card for a cost of a spare land or a bad card in hand. However, this card has
 the same cons of
 Munitions: it requires the assemble of 4 cards + him + color source, and still lose to fog lock, which are one of the
 thing
 than munitions tries to beat.</p>
-  </li>
-  <li>
-    <p><strong>Impact Tremors / Reckless Fireweaver</strong>
-These cards where my primary choice when i tested the deck on MTGO, since are very good to close the game time is a
+
+<ul>
+  <li><strong>Impact Tremors / Reckless Fireweaver</strong></li>
+</ul>
+
+<p>These cards where my primary choice when i tested the deck on MTGO, since are very good to close the game time is a
 constraint:
 they are a good choice since doesn’t require a Golem Foundry, because they also win with Ashnod + 2 Myr Retriever. I
 like the most
@@ -340,12 +369,127 @@ instead of one
 Weather the Storm, but in paper where time is not a limit, i dropped it since the green storm istant is better in
 more spots,
 and it also can be evaluated as a wincon against a lot of the field; also, it open up a slot in the sideboard.</p>
-  </li>
-</ol>
 
-<h2 id="the-sideboard">The sideboard</h2>
+<h2 id="sideboard">Sideboard</h2>
 
 <p><img src="https://pbs.twimg.com/media/FsLrhQZWcAMHETR?format=jpg&amp;name=large" alt="The sideboard" /></p>
+
+<ul>
+  <li><strong>Anti Graveyard Hate</strong></li>
+</ul>
+
+<blockquote>
+  <p>1 Ancient Grudge 1 Masked Vandal</p>
+</blockquote>
+
+<p>These cards are used for the only purpose of removing Relic of Progenitus/Nihil Spellbomb of our opponents: the first
+spell can hit double relic, and the second one can be tutored from Myr Retriever.</p>
+
+<ul>
+  <li><strong>Anti linear strategies</strong></li>
+</ul>
+
+<blockquote>
+  <p>3 Duress</p>
+</blockquote>
+
+<p>We can’t do much against linear strategies such as Hexproof, Tribe, Cycle Storm etc., and each archetype might require
+ad hoc solutions: in order to have room for other more themed card, we figure out that Duress be sideboarded in vs. all
+this deck, making it a flexible ok cards versus lots of strategies that might.</p>
+
+<ul>
+  <li><strong>Anti Swarm</strong></li>
+</ul>
+
+<blockquote>
+  <p>2 Breath Weapon</p>
+</blockquote>
+
+<p>Good vs all the decks that tries to swarm the board in the early turns, preferred to Krark-Clan Shaman since can hit
+flying creatures and does not require artifacts to sac.</p>
+
+<ul>
+  <li><strong>Lifegain</strong></li>
+</ul>
+
+<blockquote>
+  <p>3 Fangren Marauder 1 Weather the Storm</p>
+</blockquote>
+
+<p>The main purpose of this cards is to help us survive the early-mid game against too aggressive strategies, such as MonoR
+Kuldotha or Boros: Fangren is also a solid plan B when we take out the combo and the gameplan shift on a more grindy and
+midrangish build based on the green monsters and Golem Foundry.</p>
+
+<ul>
+  <li><strong>Combo support</strong></li>
+</ul>
+
+<blockquote>
+  <p>1 Makeshift Munitions</p>
+</blockquote>
+
+<p>Combo piece that are brought in when we need to win in the same turn of the combo: it also has some minor utility
+against faeries decks (the main one is to take a counter) and is an out vs. other Fangren Marauders or other annoying
+creatures. Preferred to Reckless Fireweaver or Impact Tremors for its flexibility.</p>
+
+<ul>
+  <li><strong>Utils</strong></li>
+</ul>
+
+<blockquote>
+  <p>2 Smash to Dust 1 Nihil Spellbomb</p>
+</blockquote>
+
+<p>Smash to Dust is a premium card that is strong for his flexibility: can remove a Relic of Progenitus, can wrath a board
+of small creatures, and has the secret ability that is valuable against Defenders Combo. The black spellbomb is also an
+utility can be used against annoying graveyard interactions.</p>
+
+<h3 id="bonus-single-card-discussion-1">Bonus: Single card discussion:</h3>
+
+<ul>
+  <li>
+    <p><strong>Krark-Clan Shaman</strong></p>
+
+    <p>The red goblin is a stellar sideboard card against specific decks, but it needs some requirements that this deck
+cannot offer consistently: multiple times the creature were only a 1/1 without ability, since i wasn’t able to
+sacrifice enough artifacts to make it work. I prefer a Pyroclasm effect since in this build because in my opinion is a
+more solid choice, that can be also used to reach for flying creatures.</p>
+  </li>
+  <li>
+    <p><strong>Scattershot</strong></p>
+
+    <p>This is not the deck for Scattershot: in specific spot is a catch all against the Spellstutter Sprite deck, but in
+most of the other cases, is a way worse Breath Weapon. Has some synergy combined with Deadly Dispute, that enable
+multiple spell in the same turn, but which card is not good paired with the black istant?</p>
+  </li>
+  <li>
+    <p><strong>Nature’s Claim</strong></p>
+
+    <p>As hate for enchantment/artifact, we preferred Masked Vandal, since is tutorable; the green istant is faster, has
+less requirements and can be used in some fringe plays to gain life, but we evaluate more the ability to fetch for an
+hate card with Myr Kinsmith, that in most of the matchup that we side in the changeling creature, we keep the 3ofs of
+the Myr.</p>
+  </li>
+  <li>
+    <p><strong>Impact Tremors/ Reckless Fireweaver</strong></p>
+
+    <p>These cards contends the spot for the combo utility for the kill in the same turn, and we ended up in choosing the
+enchant since is more flexible and, while in combo, can resolve some annoying creatures, and in general is a more
+powerful cards.</p>
+  </li>
+  <li>
+    <p><strong>Crimson Acolyte</strong></p>
+
+    <p>In multiple brainstorming session, we evaluate the white cleric as a solid way to contrast MonoR, but the creature has
+some problems: it takes too many sideboard slots, it’s offcolor, and sometimes the red deck win despite the presence
+of absence of the protected creature. So in the end, we chose to resign to destiny and cut the girl.</p>
+  </li>
+</ul>
+
+<p><img src="./../assets/images/image.png" alt="The deck" />
+<em>For those familiar with decklist in MTGO layout, this is the screenshot of the deck</em></p>
+
+<h3 id="very-bonus-sideboard-strategy">Very bonus: Sideboard strategy</h3>
 
 <table>
   <thead>
@@ -367,10 +511,10 @@ and it also can be evaluated as a wincon against a lot of the field; also, it op
     </tr>
     <tr>
       <td>Altar Tron</td>
-      <td> </td>
-      <td> </td>
-      <td>TOP SECRET</td>
-      <td> </td>
+      <td>¯_(ツ)_/¯</td>
+      <td>¯_(ツ)_/¯</td>
+      <td>¯_(ツ)_/¯</td>
+      <td>¯_(ツ)_/¯</td>
     </tr>
     <tr>
       <td>Hexproof</td>
@@ -405,7 +549,7 @@ and it also can be evaluated as a wincon against a lot of the field; also, it op
       <td>3 Duress 1 Weather the storm 1 Nihil Spellbomb</td>
       <td>3 Ashnod’s Altar 3 Myr Kinsmith 1 Golem Foundry</td>
       <td>he’s faster???? has high % of fizzle. IDK</td>
-      <td>¯_(ツ)_/¯</td>
+      <td>Medium</td>
     </tr>
     <tr>
       <td>Dimir Terror</td>
@@ -528,7 +672,7 @@ and it also can be evaluated as a wincon against a lot of the field; also, it op
     </tr>
     <tr>
       <td>Walls</td>
-      <td>2 Smash to Dust 1 Breath Weapon</td>
+      <td>2 Smash to Dust 1 Makeshift Munitions</td>
       <td>3 Weather the storm</td>
       <td>He’s 1 turn faster</td>
       <td>Favorable</td>
@@ -564,31 +708,117 @@ and it also can be evaluated as a wincon against a lot of the field; also, it op
   </tbody>
 </table>
 
-<h3 id="bonus-sideboard-strategy">Bonus: Sideboard strategy</h3>
+<p>This table is the result of session of brainstorming with the testing team: for some matchups in and out might not be
+optimized. If you have suggestion or correction, feel free to <a href="https://twitter.com/chumpblocckami">dm me</a>.</p>
 
-<p>The tournament:</p>
+<p>NB: <em>Altar Tron sideboard strategy was intentionally left blank because <strong>tel sai</strong>.</em></p>
 
-<p>Swiss: 8-1-1
+<h3 id="match-up-ranking-visual-view">Match up ranking visual view:</h3>
+
+<p><img src="./../assets/images/altar_tron_matchup.png" alt="Ranking" /></p>
+
+<p>This ranking may vary according to sideboard choices, player skill and overall luck.
+This chart is the result of my experience with the deck, so this ranking might not totally adhere with the reality
+of the meta and might be biased towards personal assumptions.</p>
+
+<h2 id="tournament">Tournament:</h2>
+
+<p>I’m doing a quick coverage of the games, highlight only interesting games.
+Swiss: 8-1-1
 Match up:</p>
 
 <ol>
-  <li>Dimir Terror</li>
-  <li>Hexproof</li>
-  <li>Affinity</li>
-  <li>Boros Synth</li>
-  <li>MonoR Kuldotha</li>
-  <li>MonoU</li>
-  <li>MonoU</li>
-  <li>Affinity</li>
-  <li>Walls Combo</li>
-  <li>RB Madness</li>
+  <li>Dimir Terror 2-0
+Won first match on the back of double Myr Retriever that chumpblock their 5/5s and then i eventually close the game
+comboing off,
+second game thanks to Duress i resolved a Golem Foundry that put the game in midrange mode; in the early turn
+opponent skips
+some land drop, so it was an easy battle.</li>
+  <li>Hexproof 2-0
+Lost the dice but i managed to go infinite life against his strong opening that will beat me one turn later: g2 was
+fast but my opponent
+kept a ‘slower’ t5 hand, and i managed to t4 him on the back of infinite golem despite being on the draw.</li>
+  <li>Affinity 2-1
+G1 I combo off creating an infamous number of 3/3, but my opponent went to the double Galvanic Blast route +
+Makeshift Munitions for the kill.
+G2 G3 went in a similar way, were i comboed off after some long Fangren Marauder grind.</li>
+  <li>Boros Synth 2-1
+G1 I won effortless thanks to Weather the Storm, G2 he wrecked me with a very fast start, G3 he kept a strange one
+lander hand where
+he starts with Ancient Den Glint Hawk go otp, t2 Relic of Progenitus with no land and he skips some land drop.</li>
+  <li>MonoR Kuldotha 2-1
+G1 i steal the game with a very lucky draw where i gained infinite life gain on t4. G2 he overwhelm me with burn, G3
+i saw lots of sideboard card and i won on the back of Fangren Marauder.</li>
+  <li>
+    <p>MonoU 2-1
+Lost to two Spell Pierce on early turn and a massive combats of Faeries and Ninjas sonn after. G2 G3 I won thanks to
+Golem Foundry, Fangren Marauder and Weather the Storm.</p>
+  </li>
+  <li>
+    <p>MonoU 2-0
+G1 won thanks to Golem Foundry, G2 thanks of a well timely Breath Weapon. This match had some controversies since a
+judge was evoked in the winning turn, since
+i made two land drops, that was entirely my fault. The judge call was made since i played early on a Urza’s land, and
+after lots of game actions i played a Crystal Grotto,
+which made me scry 1 to the bottom. My opponent correctly call the judge, and we explained to him the situation, and
+after a quick conversation with the Head judge, he made
+rewind the action (so no land in play and the card on bottom goes on top), granting me a warning. In that spot, i
+sacrifice my Retriever for Expedition Map, fetch the cycle land,
+and with that draw hit Weather the Storm, a 2 out of 30ish card winning card. The controversy arise because inbetween
+my losing position and the winning position a referee judgment
+were stated, so the outcome might be interpreted as biased towards the judge decision.</p>
+  </li>
+  <li>
+    <p>Affinity 2-0
+I went for the combo both g1 and g2, and despite a Negate from my opponent in the post sideboard game, i was able to
+win without particular effort.</p>
+  </li>
+  <li>
+    <p>Walls Combo 0-2
+I was 8-0 but my opponent was 7-0-1, so he needed to play: Defender Combo is one of my worst match-up, and despite my
+opponent’s deck was builded strangely (he was playing Vent Sentinel as wincon), he wrecked me in both games.</p>
+  </li>
+  <li>
+    <p>RB Madness
+We were at table 2, and an intentionally draw was summoned.</p>
+  </li>
+  <li>Top8: MonoBlack Khalni Control
+I punted game1 where i failed to draw the Weather the Storm for infinite life, and i only had an infinite army of
+golems, but he had a 4/4 Crypt Rats evoked off Initiative final room, so my Golem abruptly dies each turn thanks to
+a rat activation; In the end i was trampled to death by his Avenging Hunter. Game 2 he mull to 5 so i was able to
+quickly have access to the combo and we skyrocket to g3, where i was able to take the game thanks to Makeshift
+Munitions. In the last game, my opponent made a mistake, casting Deglamer on my Ashnod’s Altar and not on my red
+enchant, and i was able to Deadly Dispute the artifact and returning it to my hand thanks to a timely sacrifice of
+Myr Retriever: if he targeted Munitions, i would had surely some trouble. In his defense, it was 1 am o’clock, this
+is was his first mistake in all the interactions we had in the games we played. Mistakes happen :)</li>
+  <li>Top4: Boros Synth
+We split top4 and Diego let me play the final since he had to return home (an 8 hours trip he said), so he kindly
+gave me the opportunity to battle for the title. Thanks a lot, Diego!</li>
+  <li>Top2: Fog Tron @AAdeptoTerra
+Like in fairy tales, i faced my friend and testing companion Alessandro, with his take on Flicker Tron; the final
+was a remake of Paupergeddon 2020, where he was gentle enought to conceded to me for making Atogshift the winning
+deck; He surely was thirsty of revenge, so this time he wanted to battle. G1 i combo but he fog multiple turns until
+he managed to combo thanks to 3 Urza’s Tower + Weather the Storm + Ghostly Flicker + Memnonic Wall + Rolling
+Thunder (on of the Tronest thing i’ve ever seen). G2 and G3 i was able to cast multiple Duress, removing key pieces
+from his hands and graveyard also thanks to Nihil Spellbomb, and also thanks to his mull to 5 on g3, i was declared
+Paupergeddon 2023 champion. Evvai! :)</li>
 </ol>
 
-<p>Top8: MonoBlack Plants</p>
+<h2 id="last-words">Last words:</h2>
 
-<p>Top4: Boros Synth</p>
-
-<p>Top2: Fog Tron @AAdeptoTerra</p>
+<p>I had good luck all over the tournament, were i played my outs and they happen (expecially vs. Hexproof, Burn and
+MonoU): i’m not Phil Hellmuth, so if luck weren’t a factor, i would lost everytime.
+The deck is a blast to play: it remembers my the old Krark-Clan Ironworks time, and despite the fact that the power
+leve is lower, i enjoyed every game i played with this deck, also the one i lost.
+As for the list, i’m quite confident that the maindeck is optimized: there is some arguments about Ichor Wellspring as a
+cuttable card, since is the worst t2 play and the first card to side out, but as i said, it has a very good synergy with
+Deadly Dispute, and I personally don’t suggest to play without it.
+Since the vast majority of my game were won on the back of Weather the Storm, i would suggest adding the fourth to the
+maindeck, but i really don’t know which card to trim, and i fear that the fourth copy will weaken too much the deck
+against strategies that don’t relies on life, that are already the worst match up for the deck.
+Sideboard was specifically designed for Paupergeddon, so i won’t be surprised to see completely new cards added or
+removed in order to adapting it to local metagame: my suggestion is to not overplay too much out of color cards (for
+example, Captured Sunlight), since the deck can’t reliably afford to have much colored mana in multiple spots.</p>
 
 <h2 id="acknowledgments">Acknowledgments:</h2>
 
@@ -613,4 +843,12 @@ TIME TO PLAY)</li>
 
 <p><img src="./../assets/images/top4.jpeg" alt="I ragazzi" />
 <em><a href="https://twitter.com/bragioto">Bragioto</a>, <a href="https://twitter.com/A_AdeptoTerra">AAdeptoTerra</a> and me right before playing
-for top4. We all are in the same testing team!</em></p>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[First publication: 2023-04-2 19:00:00]]></summary></entry></feed>
+for top4. We all are in the same testing team!</em></p>
+
+<blockquote>
+  <p>In lega uno sciacallo, al geddon un predatore.</p>
+</blockquote>
+
+<h3 id="review-history">Review history</h3>
+
+<p><em>2023-04-2 19:00:00</em> : First publication</p>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[Paupergeddon Lecco 2023: Report and spieghino]]></summary></entry></feed>
