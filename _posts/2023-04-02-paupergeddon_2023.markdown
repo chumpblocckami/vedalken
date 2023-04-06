@@ -315,7 +315,7 @@ relevant body. On MTGO I play the Reckless
 instead of one
 Weather the Storm, but in paper where time is not a limit, I dropped it since the green storm instant is better in
 more spots,
-and it also can be evaluated as a wincon against a lot of the field and  also, it opens up a slot in the sideboard.
+and it also can be evaluated as a wincon against a lot of the field and also, it opens up a slot in the sideboard.
 
 ## Sideboard
 
@@ -410,6 +410,37 @@ utility can be used against annoying graveyard interactions.
 
 ### Very bonus: Sideboard strategy
 
+This is by no mean a complete or perfect sideboard list, but for the most part, is the best line my testing team and I
+figured out after playing the deck. We cluster the match up in few big categories, and then we apply some strategies
+based on that. The categorization is:
+
+1. **Full combo plan**
+   This plan is used against all the linear decks, where we need to optimize the combo in order to win as fast as
+   possible. Since the vast majority of these decks don't run any type of interaction, no hate card are brought in, and
+   generic and cheap interaction spell are preferred (example: vs. Hexproof no Ancient Grudge vs. Relic of Progenitus,
+   but 3 ofs Duress are brought in). In these match ups, time is the main actor, so the cuttable card are non-combo
+   cards that are 'slower', and the only cards that are eligible are Ichor Wellspring / Energy Refractor / Deadly
+   Dispute; we found out that it's better to t2 Duress this type of decks rather than net a card with Ichor Wellspring.
+   It seems odd, but any other cards in the list has a higher function or are optimized to combo.
+
+2. **Hybrid combo plan**
+   This plan is used against midrange decks that runs tons of hate cards from the sidebord: the strategy is to trim some
+   combo cards, like Ashnod's Altar or Golem Foundry, in order to bring in other support cards that fits well vs. the
+   deck we are facing (example: vs. Boros Fangren Marauder or Breath Weapon). This build will lead to longer matches,
+   and more the game is taking, more time we have to draw combo spell, so we will eventually assemble the combo.
+
+3. **Fangren plan**:
+   This plan is used against decks that runs so many hate cards that trying to finding the combo is a zero sum game,
+   where no matter how hard we try, we won't succeed to assemble all the combo pieces. The archetypes that are so
+   dominant in post sideboard games are MonoU Faeries and parent builds, and some UB Terror decklists. The main goal is
+   to win on the back of Fangren Marauder and/or Golem Foundry, trying to deal against counterspells and gy hate.
+
+4. **Control plan**:
+   This plan is mainly used against MonoRed Kuldotha and parent builds, where we board out the main combo pieces for
+   cards that are meant to gain life and do board control. This strategy was crafted after multiple games where games
+   were too fast or too deep to be cleared with the combo, so it was better to explore new route in order to get the
+   win.
+
 | Deck                | Side in                                                                  | Side out                                                                    | Motivation                                                                          | Match UP  |
 |---------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------| 
 | Affinity            | 3 Fangren Marauder 1 Ancient Grudge                                      | 1 Myr Kinsmith 1 Weather the storm 1 Ashnod's Altar 1 Ichor Wellpring       | Fangren for survival mode                                                           | Favorable |
@@ -447,6 +478,26 @@ optimized. If you have suggestion or correction, feel free to [dm me](https://tw
 
 NB: _Altar Tron sideboard strategy was intentionally left blank because **tel sai**._
 
+### Color pie overview
+
+These are generic and long shot advices for generalize the sideboard not against specific cards or strategies, but
+against colors:
+
+| Color                                                                                                | Cards in                                         | Cards out                          | Motivation                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Blue                                                                                                 | Duress                                           | Energy Refractor Weather the Storm | The color doesnt't make much pressure: card advantage is gold,                                                                                                                      
+ since can break the 1-to-1 that counterspells make                                                   |
+| Red                                                                                                  | Weather the Storm, Fangren Marauder              | Ichor Wellspring                   | The color is optimized for deals quick damage, but it's                                                                                                                             
+ not suited for the long run. The key is to buy time gaining life, and then try to win the late game. |
+| White                                                                                                | Breath Weapon, Smash to Dust                     | Ichor Wellspring                   | The color swarm the board, so we need a way to deal against                                                                                                                         
+ a small board as soon as possible; it also runs the best artifact removal, so eyes open              |
+| Green                                                                                                | -                                                | -                                  | The color is not so well represented, and the decks that runs it are very specific and feature                                                                                      
+ different strategy. No generic advice is stated                                                      |
+| Black                                                                                                | Duress                                           | Weather the Storm                  | The color doesn't have much hate cards, except from hand and land distruption. There's no good direct answer for both, so card advantage is advised.                                |
+| Artifact                                                                                             | Ancient Grudge, Smash to Dust , Fangren Marauder | -                                  | There's no decks that are full colorless, so the  main takeaways is to side in artifact removal, and side out cards that are not very good against single cards opponent can  play. |
+
+N.B: _this is probably too generic, but before the event i did it so why not include it?_
+
 ### Match up ranking visual view:
 
 ![Ranking](./../assets/images/altar_tron_matchup.png)
@@ -457,99 +508,141 @@ of the meta and might be biased towards personal assumptions.
 
 ## Tournament:
 
-I'm doing a quick coverage of the games, highlight only interesting games.
-Swiss: 8-1-1
-Match up:
+I'm doing a quick coverage of the games, highlight interesting games, decisions or fact that happened: it won't be an
+in-depth, step-by-step commentary since I wanted to focus on the decklist and on the overrall strategies of the deck
+rather than specific matches I played; I also have the suspect that the pauper audience doesn't really care about the
+descriptions of the game played written in tournaments report, but they are more happy to learn about the deck played.
 
-1. Dimir Terror 2-0
-   Won first match on the back of double Myr Retriever that chumpblock their 5/5s and then i eventually close the game
-   comboing off,
-   second game thanks to Duress i resolved a Golem Foundry that put the game in midrange mode; in the early turn
-   opponent skips
-   some land drop, so it was an easy battle.
-2. Hexproof 2-0
-   Lost the dice but i managed to go infinite life against his strong opening that will beat me one turn later: g2 was
-   fast but my opponent
-   kept a 'slower' t5 hand, and i managed to t4 him on the back of infinite golem despite being on the draw.
-3. Affinity 2-1
+**Swiss: _8-1-1_**
+
+**Match ups:**
+
+1. **Dimir Terror By Riccardo Cestari (my brother) 2-0**
+
+   Won first match on the back of double Myr Retriever that chumpblock their 5/5s and then I eventually close the game
+   comboing off.
+   Second match, thanks to Duress, I resolved a Golem Foundry that puts the game in midrange mode; in the early turn
+   opponent skip some land drop, so i was able to quickly develop my board and race it.
+
+2. **Hexproof 2-0**
+
+   Lost the dice but I managed to go infinite life against his strong opening that would beat me one turn later: g2 was
+   fast but my opponent kept a 'slower' t5 kill hand, but despite being on the draw, I managed to t4 kill him on the
+   back of infinite golem.
+
+3. **Affinity 2-1**
+
    G1 I combo off creating an infamous number of 3/3, but my opponent went to the double Galvanic Blast route +
-   Makeshift Munitions for the kill.
-   G2 G3 went in a similar way, were i comboed off after some long Fangren Marauder grind.
-4. Boros Synth 2-1
+   Makeshift Munitions for the kill. G2 G3 were similar, were i comboed off after some long Fangren Marauder grind.
+
+4. **Boros Synth by Diego Zaccagnini (top4) 2-1**
+
    G1 I won effortless thanks to Weather the Storm, G2 he wrecked me with a very fast start, G3 he kept a strange one
-   lander hand where
-   he starts with Ancient Den Glint Hawk go otp, t2 Relic of Progenitus with no land and he skips some land drop.
-5. MonoR Kuldotha 2-1
-   G1 i steal the game with a very lucky draw where i gained infinite life gain on t4. G2 he overwhelm me with burn, G3
-   i saw lots of sideboard card and i won on the back of Fangren Marauder.
-6. MonoU 2-1
-   Lost to two Spell Pierce on early turn and a massive combats of Faeries and Ninjas sonn after. G2 G3 I won thanks to
-   Golem Foundry, Fangren Marauder and Weather the Storm.
+   lander hand where he starts on the draw with Ancient Den Glint Hawk go, t2 skip land drop but played Relic of
+   Progenitus. The game was strange since I didn't find any colored source for some time, but this was mitigated by the
+   fact that my opponent didn't draw his second lands for multiple turns; In the end I was able to cast an Ancient
+   Grudge that let me combo off almost full colorless.
 
-7. MonoU 2-0
+5. **MonoR Kuldotha by Francesco Quagliata (Elfman) 2-1**
+
+   G1 i steal the game with a very lucky draw where I gained infinite life gain on t4; in this game i also miss t3 Tron
+   assemble after playing t1 Chromatic Sphere instead of Map. G2 he overwhelms me with creatures, burn spell and again
+   burn, but G3 I saw Weather the Storm early in the game and no 'dead card' (such as Golem Foundry), and then at t5 I
+   resolved a Fangren Marauder; after that i was able to win thanks to the green monster and multiple golem 3/3.
+
+6. **MonoU 2-1**
+
+   Lost to two Spell Pierce on early turns and a massive combats of Faeries and Ninjas soon after. G2 G3 I won thanks to
+   Golem Foundry, Fangren Marauder and Weather the Storm despite multiple Spell Pierce in the early turns and lots of
+   sideboard from my opponent. G3 was very strange, since I was able to pair two Fangren Marauder t3 and t4, and they
+   coast to coast all the game, and after multiple chumpblock by my opponent, they finally made the last bit of damage.
+
+7. **MonoU 2-0 by Matteo Blasi (very strong player)**
+
    G1 won thanks to Golem Foundry, G2 thanks of a well timely Breath Weapon. This match had some controversies since a
-   judge was evoked in the winning turn, since
-   i made two land drops, that was entirely my fault. The judge call was made since i played early on a Urza's land, and
-   after lots of game actions i played a Crystal Grotto,
-   which made me scry 1 to the bottom. My opponent correctly call the judge, and we explained to him the situation, and
-   after a quick conversation with the Head judge, he made
-   rewind the action (so no land in play and the card on bottom goes on top), granting me a warning. In that spot, i
-   sacrifice my Retriever for Expedition Map, fetch the cycle land,
-   and with that draw hit Weather the Storm, a 2 out of 30ish card winning card. The controversy arise because inbetween
+   judge was evoked in the winning turn, becuase
+   I made two land drops in one turn, and that was entirely my fault. The judge call was made after I played early on a
+   Urza's land, and
+   after lots of game actions I made another landrop in the form of Crystal Grotto,
+   which made me scry 1 to the bottom. My opponent correctly called the judge, and we explained to him the situation,
+   and he stated,
+   after a quick conversation with the Head judge, to
+   rewind the action (so no Crystal Grotto in play and the card on bottom goes on top), granting me a warning. In that
+   spot, I then
+   sacrificed Myr Retriever for a binned Expedition Map, fetched the Polluted Mire,
+   and with that draw hit Weather the Storm, a 2/30ish out winning card. A small controversy arose because inbetween
    my losing position and the winning position a referee judgment
-   were stated, so the outcome might be interpreted as biased towards the judge decision.
+   were stated, so the outcome might be interpreted as biased towards a judge decision.
 
-8. Affinity 2-0
+8. **Affinity by Pietro Bragioto (my father) 2-0**
+
    I went for the combo both g1 and g2, and despite a Negate from my opponent in the post sideboard game, i was able to
    win without particular effort.
 
-9. Walls Combo 0-2
-   I was 8-0 but my opponent was 7-0-1, so he needed to play: Defender Combo is one of my worst match-up, and despite my
-   opponent's deck was builded strangely (he was playing Vent Sentinel as wincon), he wrecked me in both games.
+9. **Defender Combo 0-2**
 
-10. RB Madness
-    We were at table 2, and an intentionally draw was summoned.
+   I was 8-0 but my opponent was 7-0-1, so he needed to play: Defender Combo is one of the worst match-up for the deck,
+   and despite my opponent's deck was build strangely (he was playing Vent Sentinel as wincon), he wrecked me in both
+   games.
 
-11. Top8: MonoBlack Khalni Control
-    I punted game1 where i failed to draw the Weather the Storm for infinite life, and i only had an infinite army of
-    golems, but he had a 4/4 Crypt Rats evoked off Initiative final room, so my Golem abruptly dies each turn thanks to
-    a rat activation; In the end i was trampled to death by his Avenging Hunter. Game 2 he mull to 5 so i was able to
-    quickly have access to the combo and we skyrocket to g3, where i was able to take the game thanks to Makeshift
-    Munitions. In the last game, my opponent made a mistake, casting Deglamer on my Ashnod's Altar and not on my red
-    enchant, and i was able to Deadly Dispute the artifact and returning it to my hand thanks to a timely sacrifice of
-    Myr Retriever: if he targeted Munitions, i would had surely some trouble. In his defense, it was 1 am o'clock, this
-    is was his first mistake in all the interactions we had in the games we played. Mistakes happen :)
-12. Top4: Boros Synth
+10. **RB Madness ID**
+
+    We were at table 2, and an intentional draw was summoned. My opponent (who made Top8) was on RB Madness.
+
+11. **Top8: MonoBlack Khalni Control 2-1**
+
+    I punted game1 where I failed to draw the Weather the Storm for infinite life, resulting in only an infinite army of
+    golems, but he had a 4/4 Crypt Rats evoked off Initiative's final room, so my Golems abruptly died each turn thanks
+    to
+    the rat activation; at the end I was trampled to death by his Avenging Hunter. Game 2 he mulled to 5 so I was able
+    to
+    quickly have access to the combo, since didn't find lots of hate cards. In the last game, my opponent made a
+    mistake, casting Deglamer on my Ashnod's Altar and not on my Makeshift Munitions; I was able to Deadly Dispute
+    the artifact and returning it to my hand thanks to a timely sacrifice of
+    Myr Retriever. If he targeted Munitions, it would be a totally different game. In his defense, it was 1 am o'clock,
+    and it
+    was his only error in all the interactions we had in the games we played. Mistakes happen :)
+
+12. Top4: Boros Synth by Diego Zaccagnini (the swiss one!) ID
     We split top4 and Diego let me play the final since he had to return home (an 8 hours trip he said), so he kindly
-    gave me the opportunity to battle for the title. Thanks a lot, Diego!
-13. Top2: Fog Tron @AAdeptoTerra
-    Like in fairy tales, i faced my friend and testing companion Alessandro, with his take on Flicker Tron; the final
-    was a remake of Paupergeddon 2020, where he was gentle enought to conceded to me for making Atogshift the winning
-    deck; He surely was thirsty of revenge, so this time he wanted to battle. G1 i combo but he fog multiple turns until
-    he managed to combo thanks to 3 Urza's Tower + Weather the Storm + Ghostly Flicker + Memnonic Wall + Rolling
-    Thunder (on of the Tronest thing i've ever seen). G2 and G3 i was able to cast multiple Duress, removing key pieces
-    from his hands and graveyard also thanks to Nihil Spellbomb, and also thanks to his mull to 5 on g3, i was declared
-    Paupergeddon 2023 champion. Evvai! :)
+    gave me the opportunity to battle for the title. Thanks again, Diego!
+
+13. Top2: Fog Tron by @AAdeptoTerra (my mother) 2-1
+    Like in fairy tales, I faced my friend and testing companion Alessandro, with his take on Flicker Tron; the final
+    was a remake of Paupergeddon 2020, where in that spot he was gentle enough to concede for making Atogshift
+    the winning
+    deck; he surely was thirsty of revenge, since this time he wanted to battle. G1 I went for the combo but he fogged
+    multiple turns until
+    he managed to combo too thanks to 3 Urza's Tower + Weather the Storm + Ghostly Flicker + Memnonic Wall + Rolling
+    Thunder (one of the **Tronest** thing I've ever seen). G2 and G3 I was able to cast multiple Duress and Nihil
+    Spellbomb, removing key pieces from his hands and graveyard; resulting me the Paupergeddon 2023 champion. Evvai! :)
+
+![I ragazzi](./../assets/images/top4.jpeg)
+*[Bragioto](https://twitter.com/bragioto), [AAdeptoTerra](https://twitter.com/A_AdeptoTerra) and me right before playing
+for top4. We all are in the same testing team!*
 
 ## Last words:
 
-I had good luck all over the tournament, were i played my outs and they happen (expecially vs. Hexproof, Burn and
-MonoU): i'm not Phil Hellmuth, so if luck weren't a factor, i would lost everytime.
-The deck is a blast to play: it remembers my the old Krark-Clan Ironworks time, and despite the fact that the power
-leve is lower, i enjoyed every game i played with this deck, also the one i lost.
-As for the list, i'm quite confident that the maindeck is optimized: there is some arguments about Ichor Wellspring as a
-cuttable card, since is the worst t2 play and the first card to side out, but as i said, it has a very good synergy with
+I had good luck all over the tournament, were I played my outs, and they happen (expecially vs. Hexproof, Burn and
+MonoU): I'm not Phil Hellmuth, so if luck weren't a factor, I would lose everytime.
+The deck is a blast to play: it remembers the old Krark-Clan Ironworks time, and despite the fact that the power
+level is lower, I enjoyed every game I played with the deck, also the one I lost.
+As for the list, I'm quite confident that the maindeck is optimized: there is some arguments about Ichor Wellspring as a
+cuttable card, since is the worst t2 play and the first card to side out, but as I previously said, it has a very good
+synergy with
 Deadly Dispute, and I personally don't suggest to play without it.
-Since the vast majority of my game were won on the back of Weather the Storm, i would suggest adding the fourth to the
-maindeck, but i really don't know which card to trim, and i fear that the fourth copy will weaken too much the deck
-against strategies that don't relies on life, that are already the worst match up for the deck.
-Sideboard was specifically designed for Paupergeddon, so i won't be surprised to see completely new cards added or
-removed in order to adapting it to local metagame: my suggestion is to not overplay too much out of color cards (for
-example, Captured Sunlight), since the deck can't reliably afford to have much colored mana in multiple spots.
+Since the vast majority of my game were won on the back of Weather the Storm, if i have to make a change, I would
+probably suggest adding the fourth one to the
+maindeck, but I really don't know which card to trim, and I fear that the fourth copy will weaken too much the deck
+against strategies that don't threat the lifepoints, that are already the worst match up for the deck.
+Sideboard was specifically designed for Paupergeddon, so I won't be surprised to see completely new cards added or
+removed in order to adapt it to local metagame: my suggestion is to not overplay too much out of color cards (for
+example, Captured Sunlight), since the deck can't reliably afford to have much colored mana in every in-game spots.
 
 ## Acknowledgments:
 
-I would like to thanks La Setta for helping me tuning, brainstorming and discussion this deck, in particular:
+I would like to thank La Setta and the other players for helping me tune, brainstorm and discuss this deck, in
+particular:
 
 - [LDG](https://twitter.com/LDG____) for supporting me testing my deraged builds in its local shop and returning in
   impressions;
@@ -562,17 +655,18 @@ I would like to thanks La Setta for helping me tuning, brainstorming and discuss
   better and better;
 - [Symonet](https://twitter.com/wlept_) for believing in the list and actually sleeve up for the first time Tron lands;
 - [Sanpop](https://twitter.com/Sanpop_mtgo) for sharing his deckbuilding ideas and sideboard plans;
-- [Nicola Cordeschi](https://twitter.com/ilFrittoMtg) for being IlFritto: without him, i'll probably won't succeed my
-  third Paupergeddon, and instead i would be doing some serious adult things, such as bank load or do the laundry (NO
+- [Nicola Cordeschi](https://twitter.com/ilFrittoMtg) for being IlFritto: without him, I wouldn't probably succeed my
+  third Paupergeddon: instead I would be doing some serious adult things, such as bank load or do the laundry (NO
   TIME TO PLAY)
 
-![I ragazzi](./../assets/images/top4.jpeg)
-*[Bragioto](https://twitter.com/bragioto), [AAdeptoTerra](https://twitter.com/A_AdeptoTerra) and me right before playing
-for top4. We all are in the same testing team!*
-
+That's all, guys. If you have comments, suggestion, or questions about the deck, the tournament, whatever, feel free
+to [DM me](https://twitter.com/chumpblocckami).
 
 > In lega uno sciacallo, al geddon un predatore.
 
 ### Review history
 
 _2023-04-2 19:00:00_ : First publication
+
+**My articles will always be open source, free and reproducible. My writings will always be discussion material, and my
+opinions can be debated and can be refuted. **
