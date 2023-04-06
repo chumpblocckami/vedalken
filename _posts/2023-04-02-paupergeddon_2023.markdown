@@ -28,15 +28,16 @@ permalink: /paupergeddon/2023
 
 ## Introduction
 
-Paupergeddon Lecco, which took place 26 March 2023, was the biggest Pauper Tournament ever registered, with 600+ players
-from all over Europe attending the event; the day featured a 10 round swiss with a top8 cut.
+Paupergeddon Lecco, which took place 26 March 2023, was the biggest Pauper Tournament ever registered, counting 600+
+players
+from all over Europe attending the event; the tournament, which took place at Palataurus, featured a 10 round swiss with
+a top8 cut.
 The tournament started at 9.30 AM: the swiss finished approximately ad 23 PM, and the last card in the final was
-slinghed at 2 AM.
-I was good and lucky enough to be the last man standing, completed the swiss with a record of 8-1-1, and i was declared
-winner after another 3 rounds in the top8. For clarity, we split top4 (prizes after splitting where something near 1.3k
-in MKM coupon, 3 Secret Lairs and some goodies) but we decide to play for the declaring the winner.
-In this brief blogpost, i'll cover some points about the deck I played, Altar Tron, including deck building choices,
-match up analysis, sideboard strategies, and then I quickly describe how the tournament rolled out, which archetypes I
+slinged at 2 AM. I was good and lucky enough to be the last man standing, completed the swiss with a record of 8-1-1,
+and i was declared winner after another 3 rounds in the top8. For clarity, we split top4 (prizes after splitting where
+something near 1.3k in MKM coupon, 3 Secret Lairs and some goodies) but we decide to play for declaring the winner.
+In this brief blogpost, I'll cover some points about the deck I played, Altar Tron, including deck building choices,
+match up analysis, sideboard strategies and then I quickly describe how the tournament rolled out, which archetypes I
 faced and how the games unveils throughout the tournament.
 
 ## History
@@ -58,7 +59,7 @@ journey for assembling the combo: at that time, the meta were slower, and only 4
 making the combo not particularly fast, so the strategy was based around drawing cards and survive thanks to
 Weather the Storm and Fangren Marauder, since the deck features lots of cheap and expendable artifacts.
 After finding GiorgioCombo decklist, i played his sixties and i had moderate success with that strategy, letting me
-Top16 Paupergeddon Pisa with a [list](https://www.mtggoldfish.com/deck/4930842) that represent the afromentioned
+Top16 Paupergeddon Pisa with a [list](https://www.mtggoldfish.com/deck/4930842) that featured the afromentioned
 strategy. From there, nothing really has changed, and the new lists that on and off appears online were no different in
 the core but different from the support cards, ranging from less or more card draw, more or less utilities or metagame
 cards. The turning point for the archetype starts with the spoiler
@@ -73,28 +74,32 @@ to '**kill as fast as i can**'
 
 As introduced before, my deck's choice was Altar Tron, which is a combo deck, based on the infamous Urza's Land that
 features Ashnod's
-Altar + Myr Retriever synergy to make a large amount of artifacts etb, a tremendous number of spells casted, an infinite
-death triggers and so on. I chose this deck because i really like combo decks (if you want to play Aggro, play
-Heartstone) and i love artifacts, and this deck features both: I also thought that the deck was a meta sleeper, since
-on MTGO don't see a lots of play for time constraints and in-game click intensity.
+Altar + Myr Retriever synergy to make a large amount of artifacts etb, a tremendous number of casted spells, an infinite
+death triggers and so on. I chose this deck because I really like combo builds (if you want to play Aggro, play
+Heartstone) and I love artifacts and this deck features both: I also thought that the deck was a meta sleeper, since
+on MTGO it doesn't see a lot of play for time constraints and in-game click intensity.
 
-I choose to build the deck based on well-defined pillars:
+I choose to build the deck based on few, well-defined pillars:
 
-1. _The build must be combo-centric_: I was sure that the midrange strategy of the deck wasn't optimized, and i tried to
-   create a deck that was full combo plan (example:. Myr Kinsmith > Mystical Teachings);
+1. _The build must be combo-centric_: I was sure that the midrange strategy of the deck wasn't optimized and it wasn't
+   particularly good, so I tried to create a deck that was entirely on the combo train (example:. Myr Kinsmith >
+   Mystical Teachings);
 
 
 2. _Play cards that are good despite opponent's deck or turn drawn_: I opted to play cards that are weaker in power but
-   are good every time they are drawn and in every occations, discarding card that are better but in very narrow or
-   paritcular spots (example: Ancient Stirrings > Faithless Loothing );
+   are good every time they are drawn and are ok in every circumstances than spells that are better as raw power but
+   shines only in fringe spots (example: Ancient Stirrings > Faithless Loothing ). This choice was made since I wanted a
+   deck that might survive the long run instead of a list with the purpose of spiking;
 
 
 3. _Do not try to beat sideboard strategy maindeck_: I opted to not include cards that are good vs. strategy that often
    comes in after sideboard (es. graveyard hate), both for having leaner draws and also relax the deckbuilding
-   decisions (example: Blood Fountain).
+   decisions (example: Ichor Wellspring > Blood Fountain). If opponent is smart enough to make specific metagame calls
+   in the maindeck, let be it, let's play G2 and G3 then.
 
 
-4. _Minimize the use of colored cards maindeck_: The combo is almost colorless, so the base has to be at most colorelss:
+4. _Minimize the use of colored cards maindeck_: The combo is almost colorless, so the baseline of the deck has to be at
+   most colorelss:
    support card that are colored has to be too good to not be included. (example: Deadly Dispute > Scrapwork Mutt >
    Reckoner's Bargain)
 
@@ -103,14 +108,13 @@ I choose to build the deck based on well-defined pillars:
 
 
 6. _Don't try to win against every archetype and normalize losing, but always have a plan_: for this part i'll borrow
-   the words from a Bryant Cook tweets, that sum ups perfectly my thought:
+   the words from a Bryant Cook tweets, that sum ups perfectly my thoughts:
    ![Can't beat anything](./../assets/images/cant_beat_anythin.jpeg)
 
-
-With the aforementioned statements in mind, let's see the decklist I came up with:
+With the aforementioned statements in mind, let's see the decklist my testing team and I came up with:
 ![The Main](https://pbs.twimg.com/media/FsLrghCWAAAM94t?format=jpg&name=large)
 
-Below a brief description of card choice:
+Below a brief description of cards choices:
 
 **Combo part**:
 
@@ -118,203 +122,200 @@ Below a brief description of card choice:
 
 Here we have the combo package of the deck: since the deck aims to find all the combo pieces as fast as possible, it
 features
-the full set of everyone. There are few arguments about the fourth Altar, but after extensive testing i realized that
-the Ashno'd
-artifact is way more useful than any other sport card, so i went for the fourth copy.
+the full set of everything. There are few arguments about the fourth Altar, but after extensive testing i realized that
+the Ashnod's
+artifact is way more useful than any other spot card (such as Weather the Storm, Makeshift Munitions, Blood
+Fountain...), so I went for the fourth copy, and never regretted it.
 
 **Finisher**:
 
 > 3 Weather the Storm 4 Golem Foundry
 
-The wincon are an endless army of 3/3 golem or infinite life: this lets us close the game against the 95% of the meta,
-because the vast majority of the decks in the meta wins by combat, so an unlimited amount of blockers and a lot of
+The wincons are an endless army of 3/3 golem or infinite life: this lets us close the game against the 95% of the meta,
+because the vast majority of the decks played in this historic moment wins by combat, so an unlimited amount of blockers
+and a lot of
 lifepoints
-are enough to win on the turn after comboing off; there's no same-turn finisher cards such as Makeshift Munitions or
-Impact Tremors,
-since the deck that can survive to this combo are few and not so popular.
+are enough to win on the turn after comboing off.
+In this settings, there's no same-turn finisher cards such as Makeshift Munitions or Impact Tremors, since the decks
+that survives to the aforementioned combos are few and not so popular (at the time of writing).
 
 **Draw**:
 
 > 4 Deadly Dispute 3 Ichor Wellspring
 
-As draw engine we have the well know synergy between Ichor Wellspring and Deadly Dispute, that, as for now, is the best
-way
-to draw cards in pauper. In the early list, i didn't play this draw engine, but i relied on Scrapyard Mutt and Clockwork
-Fox,
-that were better combined with Ashnod's Altar, but weaker on their own. I quickly changed my mind since i realized that
-there's no
-better alternative than DD on wellspring.
+As draw engine we have the well known synergy between Ichor Wellspring and Deadly Dispute, that, as for now, is the best
+way to draw cards in Pauper. In early lists, I didn't play this draw engine, but I relied on Scrapyard Mutt and
+Clockwork
+Fox, that were better combined with Ashnod's Altar, but weaker on their own. I quickly changed my mind since I realized
+that
+there's no better alternative than the infamous 'Ancestral Recall' duo.
 
 **Tutors**:
 
 > 4 Expedition Map 4 Ancient Stirrings 3 Myr Kinsmith
 
-These cards make the deck very consistent, allowing a fast tron assemble and multiple ways to find the combo pieces.
-This card
-are the core of the deck, and let the deck be very consistent.
+These cards make the deck very consistent, allowing a fast tron assemble and multiple ways to find combo pieces.
+I consider these cards as the core of the deck, making it very consistent.
 
 **Support**:
 
 > 4 Chromatic Star 4 Chromatic Sphere 2 Energy Refractor
 
-These cards help us to filter mana in order to play colored spells. I started with playing only the 8 chromatic
-artifact,
-but i quickly realize that i want at least 10 colored ways to make colored mana, so added 2 Energy Refractor for making
-the deck more consistent.
+These cards helps filter mana in order to play colored spells; When i was deckbuilding the deck, I started with
+only 8 chromatic artifact, but I quickly realized that at least 10 colored ways to make colored mana are mandatory, so
+added 2 Energy Refractor for
+making the access of mana of any color more consistent.
 
 **Lands**:
 
-> 4 Urza's Tower 4 Urza's Power Plant 4 Urza's Mine 2 Shimmering Grotto 1 Forest
+> 4 Urza's Tower 4 Urza's Power Plant 4 Urza's Mine 2 Crystal Grotto 1 Forest
 
-This is as straight as it appears: 12 Urzalands, 2 Grotto for colored mana, and a single basic for fightning a possible
-Cleasing Wildfire.
+This is as straight as it appears: 12 Urzalands, 2 Grotto for mana of any color and a single basic in order to fight a
+possible Cleasing Wildfire.
 
 **Utility Lands**:
 
-> 1 Haunted Fengranf 1 Polluted Mire
+> 1 Haunted Fengraf 1 Polluted Mire
 
 These are lands that are tutored using Expedition Map when Tron is assembled and Shimmering Grotto is already fetched:
-Polluted
-Mire is great for cycling a card off the map, and the fengranf is literally a tutorable spell that lets you make value
-off a
-creature in the graveyard and also helps you fightning graveyard hate at istant speed.
+Polluted Mire is great for cycling a card off the map, and the fengraf is literally a tutorable spell that lets you make
+value off a creature in the graveyard and also helps deal graveyard hate at instant speed.
 
-As for the maindeck, i think that there's no room for improving: the slots for adding new card is very tight if not
-close, since
-all the pieces are well combined to others, and removing a single card will weaken others or also the entire strategies.
-The idea of the deck is to have cards that are good in any moment of the game: from turn1 to turn10, we need to good
-draws,
-so i prefer to avoid spike cards that are good only in certain match up or in certain spot. With this idea in mind, the
-deck
-kind of build itself alone: with 17 lands, 10 cards for filtering mana, 15 cards that lets us combo, 11 tutors and 7
-draw spell,
-there's no spot for other cards. We can replace some cards.
+As for the maindeck, I think that there's no room for improving: the room for adding new cards is very tight if not
+existent, since all the pieces are well combined one another, and removing a single card will weaken others or also the
+entire strategies. The idea of the deck is to have cards that are good in any moment of the game: from turn1 to turn10,
+the average power of each card has to be maxed, so I prefer to avoid spike cards that are good only in certain match up
+or in certain spot.
 
 ### Bonus: Single card discussion:
 
 - **Crop Rotation**
 
-In the first drafts i played 2 Crop Rotation instead of Energy Refractor, but i quickly realize that the colored mana
-were too important, and crop was great in assembling tron, but bad after tron was assembled, despite its good synergy
-with
-Haunted Fengranf. I thought about cutting map for crop, since they aim to the same purpose, but Expedition Map is easier
+In the first drafts I played 2 copies of Crop Rotation instead of Energy Refractor, but I quickly realizes that mana of
+any color
+was too important; the green istant was great in assembling tron, but after that not so great, despite its good synergy
+with Haunted Fengranf. I thought about cutting Map or Stirrings for Crop, since they aim to the same kind of purpose,
+but Expedition Map is easier
 to cast,
-better in late game since it can tutor up better things, and it also enable the strongest starting hand with less
+better in late game since it can tutor up better things, and it also enables the strongest starting hand with less
 cards (
-two different tron lands + map vs two different tron lands + crop + green source). At the end, i had to make a choice,
-and
-assuming that i had to cut one of the tutors for crop, i analyzed proes and cons of every cards, resulting in the table:
+two different tron lands + map vs two different tron lands + crop + green source). At the end, choices were made,
+and pros and cons are depicted in table:
 
 |                           | Expedition Map | Crop Rotation         | Ancient Stirrings |
 ---------------------------|----------------|-----------------------|-------------------|
 | Deckbuilding requirements | -              | at least 18 lands     | -                 |
 | Casting                   | -              | Colored mana          | Colored Mana      |
 | Best scenario             | 2 urza's       | 2 urza's, land, color | Colorless in top5 |
+| Happy to play it          | 1-7 turns      | 1-3 turns             | 1-end of game     |
 
 - **Makeshift Munitions**
 
-In early draft, i played Makeshift Munitions as a 1 ofs for being able to win on the spot vs. decks that fog locks or
-decks
-that can burn you out to death if you assemble the infinite golem combo instead of infinite life. I quickly realized
+In early draft, I played Makeshift Munitions as a 1 ofs for being able to win on the spot vs. decks that fog locks or
+list that can burn you out to death if you assemble the infinite golem combo instead of infinite life. I quickly
+realized
 that
-lots of my victory didn't depend on munitions, so i cut it in favor of other cards that fits better in the strategy, and
-i
-add the red enchantment as a sidebord card. This choice was strenghten by the fact that i dont run the full set of
-Ichor, which
-is in a good synergy with it, and the fact that it, in this type of deck, fit the only role of finisher, since the
+lots of my victory didn't depend on munitions, so I cut it in favor of other cards that fits better in the strategy,
+defining
+the red enchantment as a sidebord card. This choice was strengthen by the fact that the list don't feature the full set
+of
+Ichor Wellspring, which
+has a good synergy with it, and the fact that in this type of deck, the only role it fits is the finisher one, since the
 midrange plan is
 dropped, so action like sacrifice a myr with munitions to make a point of damage and returning another myr retriever
 won't happen often,
-since in that spot you likely to have combo. Munitions also don't shine vs. faeries or other decks with small creature,
+since in that spot you likely to have combo. Makeshift Munitions also don't shine vs. faeries or other decks with small
+creature,
 since the
 primary function of our artifact is to filter color, and not being launched to opponent's creatures.
 
 - **Blood Fountain**
 
-From the day1, i've not been a fan of the black artifact, since it requires a lot of effort and a particulary board
-state to make it
-good: most of the time, it's a 1B cards that discards one and draw one, and that's not very appealing. In the previous
-build, where
-the plan was to be the value/midrange deck, the one mana artifact was a nice addition, but to me can be replaced with
-more impactful
-card, such as Myr Kinsmith or combo pieces. Responding to the argument that is a good way to beat graveyard hate g1,
-it's true, but
-Haunted Fengranf fits this role better, since it take a land slot which is open, and it's tutorable with Expedition Map,
-makes it
-better drawn in later turns. Responding to the argument that Blood Fountain can draws you the deck combined with Energy
-Refractor when
-comboing off, it's true, but very unlikely: i eun two copies of the filter artifact, and also with this list that is
-focused on
-assembling the combo as fast as it can, the full combo with Foundry is not always found, so having all the 7 pieces to
-draw the deck
+From the day1, I've not been a fan of the black artifact, since it requires a lot of effort and a very specific game
+moment to make it good: most of the time, it's a 1B cards that discards one and draw one, and that's not very appealing.
+In the previous
+build, where the plan was to be the value/midrange deck, the one mana artifact was a nice addition, but in this builds
+it can be replaced with more impactful card, such as the third copy of Myr Kinsmith. Responding to the argument that is
+a good way to beat graveyard hate g1, it's true, but Haunted Fengranf fits this role better, since it take a land slot
+which is
+open, and it's tutorable with
+Expedition Map, makes the small artifact a better drawn in later turns. Responding to the argument that Blood Fountain
+can draws you the deck combined with Energy Refractor and Golem Foundry when comboing off, its true but very unlikely:
+this build runs
+only two copies of the filter artifact, and also having all the 7 pieces to draw the deck and kill
 is very hard and unlikely. In a build with the full set of Energy Refractor, Makeshift Munitions and full set of all the
-combo pieces,
-can be a good addition, but good luck fit everything in a 60 cards deck.
+combo pieces, can be a good addition, but good luck fit everything in a 60 cards deck.
 
 - **Faithless Looting**
 
-Faithless Loothing is just a worst version of Ancient Stirrings: the discard clause is very bad for this build, since
-you
-don't have a number of cards that are better in the graveyard than in hand, and also with a low land count you'll
+Faithless Loothing is just a worst version of Ancient Stirrings: the discard clause is very bad for the archetype, since
+it hasn't a relevant number of cards that are better in the graveyard than in hand, and also with a low land count
+you'll
 probably
 find yourself discarding spell that somehow you want to cast. In previous build with Mystical Teachings or Conjurer's
 Bauble,
-i can see an weak argument in playing some copies of this spell, but it's hard to justify a slot for this card.
+there was a weak argument in playing some copies of this spell, but it's hard to justify a slot for this in updated
+builds.
 
 - **Reckoner's Bargain**
 
-Reckoner's Bargain is taking the 5-6th slots of Deadly Dispute, but more sacrifice clause requires more cheap
-artifact to sacrifice,
-and more colored spell required more colored fixing/mana source: stated all this requirements, to me is not optimal
+Reckoner's Bargain would take the 5-6th slots of Deadly Dispute, but more sacrifice clauses require more cheap
+artifacts to bin,
+and more black spells requires more fixing or dedicated mana sources: stated all this requirements, to me is not optimal
 to play
-a weaker version of Deadly Dispute that also requires some other structural fixes, so i'll end up cutting the black
+a weaker version of Deadly Dispute that also requires some other structural fixes, so I'll end up cutting the black
 draw engine.
 
 - **Foundry Inspector**
 
-This card doesn't fit well in the deck since it don't add density or depth, since don't solve a particular problem
+This card doesn't fit well in the deck since it doesn't add density or depth to the build, since don't solve a
+particular problem
 that the
-deck is facing or other similar issue, it's just another piece to add for making infinite mana without Golem Foundry,
-but it also
-is more vulnerable compared to the three-mana artifact since it's a creature with a mediocre body. It will probably
+deck is facing or other similar issue: it's just another piece to add for making infinite mana without Golem Foundry,
+but it is also more vulnerable compared to the three-mana artifact since it's a creature with a mediocre body. It will
+probably
 be somewhat
-playable if the meta will shift towards more linear decks, without lots of removal or burn spells; in all other
+playable if the meta will shift towards more linear decks without lots of removal or burn spells; in all other
 cases, i think that
-this artifact is not worth a spot in this list.
+this artifact is not worth a spot in the list.
 
 - **Dross Skullbomb / Conjurer's Bauble**
 
-These cards has all the cons of Blood Fountains, except one cons that they are colorless, so can be tutor with
+These cards has all the cons of Blood Fountains, except one pro that they are colorless, so they can be tutored with
 Ancient Stirrings:
-to me, this peculiarity is not enough to secure a slot in the list. Conjurer's Bauble has also the cons to be a ready
-to sacrifice
+to me, this peculiarity is not enough to secure them a slot them in the list. Conjurer's Bauble has also the cons to be
+a ready-to-sacrifice
 artifact, that is good with Fangren Marauder, but again to me it doesn't make the cut, since except for this fringe
 spot, it's
-not a very good card in generale (we're not playing Eggs Tron).
+not a very good card in general (we're not playing Eggs Tron).
 
 - **Bitter Reunion**
 
-This card is somehow similar to Makeshift Munitions in closing the game on the spot, and it also more usefull if
+This card is somehow similar to Makeshift Munitions in closing the game on the spot, and it also more useful if
 drawn before
-comboing off, since lets you grant a card for a cost of a spare land or a bad card in hand. However, this card has
+comboing off, since lets you grant a card for a cost of a spare land or a bad card (but this list doesn't have any)  in
+hand. However, this card has
 the same cons of
-Munitions: it requires the assemble of 4 cards + him + color source, and still lose to fog lock, which are one of the
+Makeshift Munitions: it requires the assembly of 4 cards + it + a color source, and still lose to fog lock, which are
+one of the
 thing
-than munitions tries to beat.
+than the other option tries to beat.
 
 - **Impact Tremors / Reckless Fireweaver**
 
-These cards where my primary choice when i tested the deck on MTGO, since are very good to close the game time is a
-constraint:
-they are a good choice since doesn't require a Golem Foundry, because they also win with Ashnod + 2 Myr Retriever. I
-like the most
-the creature, because it can be seen as a 5th Golem Foundry, that it's good also on his own, grinding life points for
+These cards where my primary choice when i tested the deck on MTGO, since are very good to close the game under time
+constraints:
+they are a good choice since they don't require a Golem Foundry, since they win with Ashnod's Altar + 2 Myr Retriever. I
+like
+the creature the most, since it can be seen as a 5th Golem Foundry, and it's also good on his own, grinding life points
+for
 every artifact
-that enters the battlefield, despite the fact that can be taken down by a removal spell. On MTGO i play the Reckless
+that enters the battlefield. It's downside is the fact that can be taken down by a removal spell and doesn't have a very
+relevant body. On MTGO I play the Reckless
 instead of one
-Weather the Storm, but in paper where time is not a limit, i dropped it since the green storm istant is better in
+Weather the Storm, but in paper where time is not a limit, I dropped it since the green storm instant is better in
 more spots,
-and it also can be evaluated as a wincon against a lot of the field; also, it open up a slot in the sideboard.
+and it also can be evaluated as a wincon against a lot of the field and  also, it opens up a slot in the sideboard.
 
 ## Sideboard
 
