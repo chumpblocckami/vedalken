@@ -16,14 +16,13 @@ permalink: /paupergeddon/2023
 
 # Table of Contents:
 
-0. [Introduction](#introduction)
-1. [History](#history)
-2. [Build](#build)
+1. [Introduction](#introduction)
+2. [History](#history)
 3. [Maindeck](#maindeck)
 4. [Sideboard](#sideboard)
 5. [Tournament](#tournament)
 6. [Last Words](#last-words)
-7. [Acknowledments](#acknowledgments)
+7. [Acknowledgments](#acknowledgments)
 8. [Review history](#review-history)
 
 ## Introduction
@@ -315,7 +314,7 @@ relevant body. On MTGO I play the Reckless
 instead of one
 Weather the Storm, but in paper where time is not a limit, I dropped it since the green storm instant is better in
 more spots,
-and it also can be evaluated as a wincon against a lot of the field and also, it opens up a slot in the sideboard.
+and it also can be evaluated as a wincon against a lot of the field and also, it opens up a slot in the sideboard.deck
 
 ## Sideboard
 
@@ -660,9 +659,11 @@ to [DM me](https://twitter.com/chumpblocckami).
 
 > In lega uno sciacallo, al geddon un predatore.
 
-### Review history
+## Review history
 
 _2023-04-2 19:00:00_ : First publication
+
+
 
 **My articles will always be open source, free and reproducible. My writings will always be discussion material, and my
 opinions can be debated and can be refuted. **
