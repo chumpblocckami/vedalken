@@ -160,7 +160,7 @@ I consider these cards as the core of the deck, making it very consistent.
 
 > 4 Chromatic Star 4 Chromatic Sphere 2 Energy Refractor
 
-These cards helps filter mana in order to play colored spells; When i was deckbuilding the deck, I started with
+These cards helps filter mana in order to play colored spells; When I was deckbuilding the deck, I started with
 only 8 chromatic artifact, but I quickly realized that at least 10 colored ways to make colored mana are mandatory, so
 added 2 Energy Refractor for
 making the access of mana of any color more consistent.
@@ -169,14 +169,14 @@ making the access of mana of any color more consistent.
 
 > 4 Urza's Tower 4 Urza's Power Plant 4 Urza's Mine 2 Crystal Grotto 1 Forest
 
-This is as straight as it appears: 12 Urzalands, 2 Grotto for mana of any color and a single basic in order to fight a
+This is as straight as it appears: 12 Urzalands, 2 Crystal Grotto for mana of any color and a single basic in order to fight a
 possible Cleasing Wildfire.
 
 **Utility Lands**:
 
 > 1 Haunted Fengraf 1 Polluted Mire
 
-These are lands that are tutored using Expedition Map when Tron is assembled and Shimmering Grotto is already fetched:
+These are lands that are tutored using Expedition Map when Tron is assembled and Crystal Grotto is already fetched:
 Polluted Mire is great for cycling a card off the map, and the fengraf is literally a tutorable spell that lets you make
 value off a creature in the graveyard and also helps deal graveyard hate at instant speed.
 
