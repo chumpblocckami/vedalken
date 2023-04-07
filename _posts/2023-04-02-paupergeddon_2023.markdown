@@ -414,6 +414,7 @@ figured out after playing the deck. We cluster the match up in few big categorie
 based on that. The categorization is:
 
 1. **Full combo plan**
+
    This plan is used against all the linear decks, where we need to optimize the combo in order to win as fast as
    possible. Since the vast majority of these decks don't run any type of interaction, no hate card are brought in, and
    generic and cheap interaction spell are preferred (example: vs. Hexproof no Ancient Grudge vs. Relic of Progenitus,
@@ -423,54 +424,57 @@ based on that. The categorization is:
    It seems odd, but any other cards in the list has a higher function or are optimized to combo.
 
 2. **Hybrid combo plan**
+
    This plan is used against midrange decks that runs tons of hate cards from the sidebord: the strategy is to trim some
    combo cards, like Ashnod's Altar or Golem Foundry, in order to bring in other support cards that fits well vs. the
    deck we are facing (example: vs. Boros Fangren Marauder or Breath Weapon). This build will lead to longer matches,
    and more the game is taking, more time we have to draw combo spell, so we will eventually assemble the combo.
 
-3. **Fangren plan**:
+3. **Fangren plan**
+
    This plan is used against decks that runs so many hate cards that trying to finding the combo is a zero sum game,
    where no matter how hard we try, we won't succeed to assemble all the combo pieces. The archetypes that are so
    dominant in post sideboard games are MonoU Faeries and parent builds, and some UB Terror decklists. The main goal is
    to win on the back of Fangren Marauder and/or Golem Foundry, trying to deal against counterspells and gy hate.
 
-4. **Control plan**:
+4. **Control plan**
+
    This plan is mainly used against MonoRed Kuldotha and parent builds, where we board out the main combo pieces for
    cards that are meant to gain life and do board control. This strategy was crafted after multiple games where games
    were too fast or too deep to be cleared with the combo, so it was better to explore new route in order to get the
    win.
 
-| Deck                | Side in                                                                  | Side out                                                                  | Motivation                                                                          | Match UP  |
-|---------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------| 
-| Affinity            | 3 Fangren Marauder 1 Ancient Grudge                                      | 1 Ichor Wellpring 1 Myr Kinsmith 1 Weather the storm 1 Ashnod's Altar     | Fangren for survival mode                                                           | Favorable |
-| Hexproof            | 3 Duress                                                                 | 2 Ichor Wellspring 1 Deadly Dispute                                       | He's one turn faster, we try to disrupt his wincon. Fangren is slow in this matchup | Bad       |
-| Azorius Gates       | 1 Ancient Grudge 1 Masked Vandal 2 Smash to Dust                         | 2 Ichor Wellspring  1 Golem Foundry 1 Weather the Storm                   | G1 very easy, G2 with counter + relic + d2d is a nightmare                          | Bad       |
-| Boros Gates         | 1 Ancient Grudge 1 Masked Vandal 1 Smash to Dust                         | 1 Ichor Wellspring 1 Golem Foundry 1 Weather the Storm                    | He's slow, removal for his Relic and no blunders on his d2d                         | Favorable |
-| Boros Synth         | 3 Fangren Marauder 1 Weather the Storm 2 Breath Weapon                   | 3 Ashnod's Altar 2 Myr Kinsmith 1 Golem Foundry                           | Same sideboard for MonoR, but he's slower and has no Raze                           | Favorable |
-| Cycle Storm         | 3 Duress 1 Weather the storm 1 Nihil Spellbomb                           | 3 Ichor Wellspring 1 Energy Refractor 1 Golem Foundry                     | he's faster???? has high % of fizzle. IDK                                           | Medium    |
-| Dimir Terror        | 3 Duress 1 Ancient Grudge 1 Nihil Spellbomb                              | 2 Weather the Storm 2 Ashnod's Altar 1 Energy Refractor                   | Foundry is the main plan. If resolve DD on Ichor we'll probably win                 | Favorable |
-| Elves               | 2 Breath Weapon 2 Smash to Dust                                          | 3 Ichor Wellspring 1 Deadly Dispute                                       | He's faster                                                                         | Bad       |
-| Familiars           | 3 Duress 1 Nihil Spellbomb                                               | 2 Ichor Wellspring 1 Deadly Dispute 1 Ashnod's Altar                      | Depends on its sideboard                                                            | Medium    |
-| Flicker Tron        | 3 Duress 1 Makeshift Munitions 1 Ancient Grudge 1 Nihil Spellbomb        | 2 Ichor Wellspring 3 Weather the storm 1 Ashnod's Altar                   | Depends on its sideboard                                                            | Medium    |
-| Goblin Combo        | 3 Duress 2 Breath Weapon 1 Nihil Spellbomb                               | 2 Ichor Wellspring 3 Weather the Storm 1 Myr Kinsmith                     | It's one turn faster, and has distruption                                           | Bad       |
-| Gruul Ponza         | 3 Duress                                                                 | 2 Ichor Wellspring  1 Weather the Storm                                   | Nightmare, but occasionally you can win                                             | Bad       |
-| Izzet/Dimir Faeries | 1 Ancient Grudge 2 Smash to Dust 2 Breath Weapon                         | 2 Ancient Stirrings 1 Weather the Storm 2 Ashnod's Altar                  | Depends on the list                                                                 | Medium    |
-| Jeskai Ephemerate   | 3 Duress 1 Nihil Spellbomb 1 Masked Vandal                               | 1 Ichor Wellspring 3 Weather the Storm 1 Ashnod's Altar                   | It has sideboard and recursion                                                      | Bad       |
-| Kiln Fiend          | 3 Duress 1 Weather the storm                                             | 3 Ichor Wellspring 1 Deadly Dispute                                       | He's 2 turn faster                                                                  | Bad       | 
-| Mardu Synth         | 1 Ancient Grudge 2 Breath Weapon                                         | 2 Ichor Wellspring  1 Weather the Storm                                   | He's slow, but has sideboard                                                        | Favorable | 
-| MonoU Faeries       | 2 Breath Weapon 2 Smash to Dust 3 Fangren Marauder 1 Makeshift Munitions | 4 Ashnod's Altar 3 Myr Kinsmith 1 Ancient Stirrings                       | Fangren plan, he has too much sideboard against artifact                            | Medium    |
-| MonoR Kuldotha      | 3 Fangren Marauder 1 Weather the Storm 2 Breath Weapon 2 Smash to Dust   | 4 Ashnod's Altar 3 Myr Kinsmith 1 Golem Foundry                           | Depends on the openings, if Monastery + Raze we die                                 | Medium    |
-| MonoW Heroic        | 3 Duress 1 Weather the Storm                                             | 3 Ichor Wellspring 1 Deadly Dispute                                       | He's faster, but sometimes it dies on his own                                       | Favorable |
-| Naya/4c Gates       | 1 Ancient Grudge 1 Masked Vandal 2 Smash to Dust                         | 2 Ichor Wellspring 1 Weather the Storm 1 Ashnod's Altar                   | He's slow                                                                           | Medium    | 
-| Orzhov Ephemerate   | 1 Ancient Grudge 1 Masked Vandal 2 Smash to Dust                         | 2 Ichor Wellspring  2 Weather the Storm                                   | He's slow                                                                           | Favorable |
-| Tribe               | 3 Duress 1 Weather the Storm                                             | 3 Ichor Wellspring 1 Golem Foundry                                        | He's faster, survive first turns then it might be ok                                | Bad       |
-| Turbofog            | 3 Duress 1 Makeshift Munitions 1 Nihil Spellbomb                         | 1 Ichor Wellspring 3 Weather the Storm 1 Energy Refractor                 | G1 is usually a guarantee loss, g2 g3 is better                                     | Bad       |
-| Walls               | 2 Smash to Dust 1 Makeshift Munitions                                    | 3 Weather the storm                                                       | He's 1 turn faster                                                                  | Favorable |
-| White Weenie        | 2 Breath Weapon                                                          | 2 Ichor Wellspring                                                        | He's slower than MonoR                                                              | Favorable |
-| Boros Bully Gates   | 2 Smash to Dust 2 Breath Weapon                                          | 1 Ichor Wellspring 1 Energy Refractor  1 Ancient Stirrings 1 Myr Kinsmith | He's kind of slow                                                                   | Good      |
-| Slivers             | 1 Weather the Storm                                                      | 1 Ichor Wellspring                                                        | Depends on how many lord                                                            | Good      |
-| UR Serpentine       | 3 Duress                                                                 | 1 Ichor Wellspring 1 Weather the Storm  1 Energy Refractor                | Similar to UB terror, depends on sideboard                                          | Medium    |
-| Altar Tron          | ¯\_(ツ)_/¯                                                                | ¯\_(ツ)_/¯                                                                 | ¯\_(ツ)_/¯                                                                           | ¯\_(ツ)_/¯ |
+| Deck                | Side in                                                                  | Side out                                                                  | Motivation                                                                        | Match UP  |
+|---------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------| 
+| Affinity            | 3 Fangren Marauder 1 Ancient Grudge                                      | 1 Ichor Wellpring 1 Myr Kinsmith 1 Weather the storm 1 Ashnod's Altar     | Fangren for survival mode                                                         | Favorable |
+| Hexproof            | 3 Duress                                                                 | 2 Ichor Wellspring 1 Deadly Dispute                                       | It's one turn faster, we try to disrupt his plan. Fangren is slow in this matchup | Bad       |
+| Azorius Gates       | 1 Ancient Grudge 1 Masked Vandal 2 Smash to Dust                         | 2 Ichor Wellspring  1 Golem Foundry 1 Weather the Storm                   | G1 very easy, G2 gl against counters / relic / d2d                                | Bad       |
+| Boros Gates         | 1 Ancient Grudge 1 Masked Vandal 1 Smash to Dust                         | 1 Ichor Wellspring 1 Golem Foundry 1 Weather the Storm                    | It's slow, removal for its Relic and no blunders on its d2d                       | Favorable |
+| Boros Synth         | 3 Fangren Marauder 1 Weather the Storm 2 Breath Weapon                   | 3 Ashnod's Altar 2 Myr Kinsmith 1 Golem Foundry                           | Same sideboard for MonoR, but it's slower and has no Raze                         | Favorable |
+| Cycle Storm         | 3 Duress 1 Weather the storm 1 Nihil Spellbomb                           | 3 Ichor Wellspring 1 Energy Refractor 1 Golem Foundry                     | ????????????? idk                                                                 | Bad       |
+| Dimir Terror        | 3 Duress 1 Ancient Grudge 1 Nihil Spellbomb                              | 2 Weather the Storm 2 Ashnod's Altar 1 Energy Refractor                   | Foundry is the main plan. If resolve DD on Ichor we'll probably win               | Favorable |
+| Elves               | 2 Breath Weapon 2 Smash to Dust                                          | 3 Ichor Wellspring 1 Deadly Dispute                                       | He's faster                                                                       | Bad       |
+| Familiars           | 3 Duress 1 Nihil Spellbomb                                               | 2 Ichor Wellspring 1 Deadly Dispute 1 Ashnod's Altar                      | Depends on its sideboard                                                          | Bad       |
+| Flicker Tron        | 3 Duress 1 Makeshift Munitions 1 Ancient Grudge 1 Nihil Spellbomb        | 2 Ichor Wellspring 3 Weather the storm 1 Ashnod's Altar                   | Depends on its sideboard                                                          | Medium    |
+| Goblin Combo        | 3 Duress 2 Breath Weapon 1 Nihil Spellbomb                               | 2 Ichor Wellspring 3 Weather the Storm 1 Myr Kinsmith                     | It's one turn faster, and also has disruption                                     | Bad       |
+| Gruul Ponza         | 3 Duress                                                                 | 2 Ichor Wellspring  1 Weather the Storm                                   | Nightmare in the most of the cases, but occasionally games can be stolen          | Bad       |
+| Izzet/Dimir Faeries | 1 Ancient Grudge 2 Smash to Dust 2 Breath Weapon                         | 2 Ancient Stirrings 1 Weather the Storm 2 Ashnod's Altar                  | Depends on the list                                                               | Medium    |
+| Jeskai Ephemerate   | 3 Duress 1 Nihil Spellbomb 1 Masked Vandal                               | 1 Ichor Wellspring 3 Weather the Storm 1 Ashnod's Altar                   | It has sideboard and recursion                                                    | Bad       |
+| Kiln Fiend          | 3 Duress 1 Weather the storm                                             | 3 Ichor Wellspring 1 Deadly Dispute                                       | It's 2 turn faster                                                                | Bad       | 
+| Mardu Synth         | 1 Ancient Grudge 2 Breath Weapon                                         | 2 Ichor Wellspring  1 Weather the Storm                                   | It's slow, but has sideboard                                                      | Favorable | 
+| MonoU Faeries       | 2 Breath Weapon 2 Smash to Dust 3 Fangren Marauder 1 Makeshift Munitions | 4 Ashnod's Altar 3 Myr Kinsmith 1 Ancient Stirrings                       | Fangren plan, he has too much sideboard against artifact                          | Medium    |
+| MonoR Kuldotha      | 3 Fangren Marauder 1 Weather the Storm 2 Breath Weapon 2 Smash to Dust   | 4 Ashnod's Altar 3 Myr Kinsmith 1 Golem Foundry                           | Depends on the openings, if Monastery + Raze we die, in other cases let's play    | Medium    |
+| MonoW Heroic        | 3 Duress 1 Weather the Storm                                             | 3 Ichor Wellspring 1 Deadly Dispute                                       | It's faster, but sometimes it dies on his own                                     | Favorable |
+| Naya/4c Gates       | 1 Ancient Grudge 1 Masked Vandal 2 Smash to Dust                         | 2 Ichor Wellspring 1 Weather the Storm 1 Ashnod's Altar                   | It's slow                                                                         | Medium    | 
+| Orzhov Ephemerate   | 1 Ancient Grudge 1 Masked Vandal 2 Smash to Dust                         | 2 Ichor Wellspring  2 Weather the Storm                                   | It's slow                                                                         | Favorable |
+| Tribe               | 3 Duress 1 Weather the Storm                                             | 3 Ichor Wellspring 1 Golem Foundry                                        | It's faster, survive first turns then it might be ok                              | Bad       |
+| Turbofog            | 3 Duress 1 Makeshift Munitions 1 Nihil Spellbomb                         | 1 Ichor Wellspring 3 Weather the Storm 1 Energy Refractor                 | G1 is usually a guarantee loss, g2 g3 is better                                   | Bad       |
+| Walls               | 2 Smash to Dust 1 Makeshift Munitions                                    | 3 Weather the storm                                                       | It's 1 turn faster                                                                | Favorable |
+| White Weenie        | 2 Breath Weapon                                                          | 2 Ichor Wellspring                                                        | It's slower than MonoR                                                            | Favorable |
+| Boros Bully Gates   | 2 Smash to Dust 2 Breath Weapon                                          | 1 Ichor Wellspring 1 Energy Refractor  1 Ancient Stirrings 1 Myr Kinsmith | It's kind of slow                                                                 | Good      |
+| Slivers             | 1 Weather the Storm                                                      | 1 Ichor Wellspring                                                        | Depends on the number of lords                                                    | Good      |
+| UR Serpentine       | 3 Duress                                                                 | 1 Ichor Wellspring 1 Weather the Storm  1 Energy Refractor                | Similar to UB terror, depends on sideboard                                        | Medium    |
+| Altar Tron          | ¯\_(ツ)_/¯                                                                | ¯\_(ツ)_/¯                                                                 | ¯\_(ツ)_/¯                                                                         | ¯\_(ツ)_/¯ |
 
 This table is the result of session of brainstorming with the testing team: for some matchups in and out might not be
 optimized. If you have suggestion or correction, feel free to [dm me](https://twitter.com/chumpblocckami).
@@ -662,8 +666,6 @@ to [DM me](https://twitter.com/chumpblocckami).
 ## Review history
 
 _2023-04-2 19:00:00_ : First publication
-
-
 
 **My articles will always be open source, free and reproducible. My writings will always be discussion material, and my
 opinions can be debated and can be refuted. **
