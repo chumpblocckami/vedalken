@@ -8,8 +8,8 @@ title: Vedalken
 email: contact.matteomazzola@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mining Pauper one alghoritm at time.
-baseurl: "/vedalken"
-url: "https://chumpblocckami.github.io/"
+baseurl: "/"
+url: "www.vedalken.cloud"
 twitter_username: chumpblocckami
 github_username:  chumpblocckami
 
