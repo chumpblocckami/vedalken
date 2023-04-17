@@ -1,0 +1,85 @@
+<h1 id="generating-pauper-cards-with-artificial-intelligence">Generating pauper cards with artificial intelligence</h1>
+
+<p><img src="https://cards.scryfall.io/art_crop/front/1/6/162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71.jpg?1562799487" alt="Mind Stone" /></p>
+<blockquote>
+  <p><em>Certo che sta accadendo dentro la tua testa, Harry! Dovrebbe voler dire che non è vero?</em></p>
+</blockquote>
+
+<h1 id="table-of-contents">Table of Contents:</h1>
+
+<ol>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#approach">Approach</a></li>
+  <li><a href="#maindeck">Code</a></li>
+  <li><a href="#demo">Demo</a></li>
+  <li><a href="#last-words">Last Words</a></li>
+  <li><a href="#acknowledgments">Acknowledgments</a></li>
+  <li><a href="#review-history">Review history</a></li>
+</ol>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Generative AI (GenAI) is a type of Artificial Intelligence that can create a wide variety of data, such as images,
+videos, audio, text, and 3D models. It does this by learning patterns from existing data, then using this knowledge to
+generate new and unique outputs. GenAI is capable of producing highly realistic and complex content that mimics human
+creativity, fasten the human process of generating content. This specific kind of Artificial Intelligence lately has
+seen an enormous interest from the public, both for its possible applicability and its controversies. In this post i’ll
+jump on the AIGeneration train and use it for creating custom, never seen and totally plausible Magic the Gathering
+cards.</p>
+
+<h1 id="approach">Approach</h1>
+
+<p>What’s are the attribute that compose a card?
+[IMMAGINE CHE DESCRIVE LE VARIE PARTI DI UNA CARTA DI MAGIC]
+In this application, we’re going to use an ensamble approch, using two models in order to render the card: ChatGPT for
+generating all the attributes of the card, and StableDiffusion for generating the artwork. As for the layout, we used a
+blank one that we’re updating with the generations.</p>
+
+<h3 id="bonus-whats-chatgpt">Bonus: what’s ChatGPT?</h3>
+
+<h3 id="bonus-whats-stable-diffusion">Bonus: what’s Stable Diffusion?</h3>
+
+<h1 id="code">Code</h1>
+
+<p>Here I’ll quickly describe the main parts of the process with a brief description of the approaches used:</p>
+
+<h3 id="attribute-generation">Attribute generation</h3>
+
+<h3 id="artwork-generation">Artwork generation</h3>
+
+<h3 id="layout-generation">Layout generation</h3>
+
+<h3 id="final-result">Final Result</h3>
+
+<h1 id="demo">Demo</h1>
+
+<p><a href="https://colab.research.google.com/drive/1aC55dHbKf5kx4olqzopvT3CLqlLxzVgH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></p>
+
+<p><a href=""><img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm-dark.svg" /></a></p>
+
+<p>The code for the demos is available
+on <a href="https://colab.research.google.com/drive/1aC55dHbKf5kx4olqzopvT3CLqlLxzVgH?usp=sharing">Google Colab</a> or as
+a <a href="">Huggingface Space</a>; as mentioned, in
+order
+to run the code and generate cards, you need to have a OpenAI token. ChatGPT is offered as a pay-per-use service, so *
+*every generation costs**: the price is by no mean expensive, but it’s a good thing to have in mind while playing with
+the
+demo :)</p>
+
+<h1 id="last-words">Last words</h1>
+
+<h1 id="acknowledgments">Acknowledgments</h1>
+
+<p>While wandering across <a href="https://github.com/">GitHub</a>, I stumbled across <a href="https://twitter.com/minimaxir">@minimaxir</a> work
+on exploring ChatGPT API, and while inspecting <a href="https://github.com/minimaxir/chatgpt_api_test">his code</a>, I came up with
+the idea for this blogpost.
+Big thanks especially
+for his context and prompt engineering; without his repository, I would be in trouble, since I have little to no
+experience in it.</p>
+
+<h2 id="review-history">Review history</h2>
+
+<p><em>2023-04-14 19:00:00</em> : First publication</p>
+
+<p><strong>My articles will always be open source, free and reproducible. My writings will always be discussion material, and my
+opinions can be debated and refuted.</strong></p>
