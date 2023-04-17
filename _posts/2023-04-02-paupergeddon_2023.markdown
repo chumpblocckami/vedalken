@@ -623,11 +623,11 @@ descriptions of the game played written in tournaments report, but they are more
     I punted game1 where I failed to draw the Weather the Storm for infinite life, resulting in only an infinite army of
     golems, but he had a 4/4 Crypt Rats evoked off Initiative's final room, so my Golems abruptly died each turn thanks
     to
-    the rat activation; at the end I was trampled to death by his Avenging Hunter. Game 2 he mulled to 5 so I was able
+    the rat activation; at the end I was trampled to death by his Avenging Hunter. Game 2 he mulled to **4** so I was able
     to
     quickly have access to the combo, since didn't find lots of hate cards. In the last game, my opponent made a
-    mistake, casting Deglamer on my Ashnod's Altar and not on my Makeshift Munitions; I was able to Deadly Dispute
-    the artifact and returning it to my hand thanks to a timely sacrifice of
+    mistake, casting Deglamer on my Ashnod's Altar and not on my Makeshift Munitions; I was able to sacrifice it with
+    munitions and returning it to my hand thanks to a timely sacrifice of
     Myr Retriever. If he targeted Munitions, it would be a totally different game. In his defense, it was 1 am o'clock,
     and it
     was his only error in all the interactions we had in the games we played. Mistakes happen :)
@@ -695,6 +695,7 @@ to [DM me](https://twitter.com/chumpblocckami).
 
 ## Review history
 
+_2023-04-17 19:00:00_: Updated Top8 game vs. MonoBlack Garden (thanks [@JTruffaz](https://twitter.com/JTruffaz))
 _2023-04-8 19:00:00_ : First publication
 
 **My articles will always be open source, free and reproducible. My writings will always be discussion material, and my

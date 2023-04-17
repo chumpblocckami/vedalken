@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Generating pauper cards thanks to Artificial Intelligence"
+title: "Generating Magic:the gathering cards using AI"
 date: 2023-04-15 14:00:00 +0200
 categories: article
 published: True

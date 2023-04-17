@@ -12,6 +12,7 @@ baseurl: "/"
 url: "vedalken.cloud"
 twitter_username: chumpblocckami
 github_username:  chumpblocckami
+image: https://cards.scryfall.io/art_crop/front/2/c/2c3bbbe9-91a3-4da5-a1b4-6aed4bd684de.jpg?1651655793
 
 # Build settings
 theme: minima
