@@ -13,7 +13,7 @@ Difference between paper Pauper league - MTGO Pauper league
 - Infinite strategies / loop-based strategies / click intensive strategies
 - Grinder mentality (5-0 lavadora) vs. player mentality 
 - High skilled player with an archetype will be rewarded in the single shot tournament instead of the endless grind of leagues
-- Few 'pro players' on twitter leverage the sentiment towards the meta
+- Few 'pro players' on Twitter leverage the sentiment towards the meta
 - Not every meta is bad (Ragavan/Monastery roulette)
 - Play with the limitation, not with what if (for example, if you can't play Initiative, play other things)
 - Play environment are key to the success of a match (for example, sitting on the sofa watching tv is worst than play sit on a tournament table)
