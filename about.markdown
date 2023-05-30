@@ -12,7 +12,7 @@ permalink: /about/
 # About me:
 
 - Data Scientist (2019 - now)
-- Python developer (2018 - now)
+- Python developer (2016 - now)
 - Magic:the Gathering Player (Mirrodin Block - now)
 - Pauper
   Player ([Jund Loam pauper deck release](http://www.metagame.it/articoli-pauper/2616-pauper-deck-analisi-jund-loam.html) -
