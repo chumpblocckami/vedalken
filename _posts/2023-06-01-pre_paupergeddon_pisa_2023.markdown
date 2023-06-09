@@ -4,7 +4,7 @@ title: "Pre Paupergeddon Pisa 2023"
 date: 2023-06-09 10:00:00 +0200
 categories: article
 published: True
-permalink: /paupergeddon/2023
+permalink: /paupergeddon/pisa/pre
 image: https://cards.scryfall.io/art_crop/front/1/d/1de43c67-7dfe-4282-b433-4e394366d2e9.jpg?1572489634
 ---
 
