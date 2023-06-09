@@ -7,19 +7,19 @@
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Generating Magic:the Gathering cards using AI" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Someday, someone will best me. But it won’t be today, and it won’t be you." />
-<meta property="og:description" content="Someday, someone will best me. But it won’t be today, and it won’t be you." />
+<meta name="description" content="Someday, someone will best me. But it won’t be today, and it won’t be ChatGPT." />
+<meta property="og:description" content="Someday, someone will best me. But it won’t be today, and it won’t be ChatGPT." />
 <link rel="canonical" href="http://localhost:4000/AI/generating_pauper_cards" />
 <meta property="og:url" content="http://localhost:4000/AI/generating_pauper_cards" />
 <meta property="og:site_name" content="Vedalken" />
 <meta property="og:image" content="https://cards.scryfall.io/art_crop/front/1/6/162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71.jpg?1562799487" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-04-15T14:00:00+02:00" />
+<meta property="article:published_time" content="2023-05-15T18:00:00+02:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://cards.scryfall.io/art_crop/front/1/6/162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71.jpg?1562799487" />
 <meta property="twitter:title" content="Generating Magic:the Gathering cards using AI" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-15T14:00:00+02:00","datePublished":"2023-04-15T14:00:00+02:00","description":"Someday, someone will best me. But it won’t be today, and it won’t be you.","headline":"Generating Magic:the Gathering cards using AI","image":"https://cards.scryfall.io/art_crop/front/1/6/162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71.jpg?1562799487","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/AI/generating_pauper_cards"},"url":"http://localhost:4000/AI/generating_pauper_cards"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-15T18:00:00+02:00","datePublished":"2023-05-15T18:00:00+02:00","description":"Someday, someone will best me. But it won’t be today, and it won’t be ChatGPT.","headline":"Generating Magic:the Gathering cards using AI","image":"https://cards.scryfall.io/art_crop/front/1/6/162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71.jpg?1562799487","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/AI/generating_pauper_cards"},"url":"http://localhost:4000/AI/generating_pauper_cards"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Vedalken" /></head>
 <body><header class="site-header" role="banner">
@@ -44,14 +44,14 @@
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Generating Magic:the Gathering cards using AI</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2023-04-15T14:00:00+02:00" itemprop="datePublished">Apr 15, 2023
+      <time class="dt-published" datetime="2023-05-15T18:00:00+02:00" itemprop="datePublished">May 15, 2023
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     <p><img src="https://cards.scryfall.io/art_crop/front/1/6/162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71.jpg?1562799487" alt="Mind Stone" /></p>
 <blockquote>
-  <p><em>Someday, someone will best me. But it won’t be today, and it won’t be you.</em></p>
+  <p><em>Someday, someone will best me. But it won’t be today, and it won’t be ChatGPT.</em></p>
 </blockquote>
 
 <h1 id="table-of-contents">Table of Contents:</h1>
@@ -71,15 +71,42 @@
 <p>Generative AI (GenAI) is a type of Artificial Intelligence that can create a wide variety of data, such as images,
 videos, audio, text, and 3D models. It does this by learning patterns from existing data, then using this knowledge to
 generate new and unique outputs. GenAI is capable of producing highly realistic and complex content that mimics human
-creativity, fasten the human process of generating content. This specific kind of Artificial Intelligence lately has
-seen an enormous interest from the public, both for its possible applicability and its controversies. In this post i’ll
+creativity, and in recent years it is used to fasten the human process of generating content. This specific kind of
+Artificial Intelligence lately has
+raised an enormous public interest, both for its possible applicability and its controversies. In this post I’ll
 jump on the AIGeneration train and use it for creating custom, never seen and totally plausible Magic the Gathering
 cards.</p>
 
 <h1 id="approach">Approach</h1>
 
-<p>What’s are the attribute that compose a card?
-[IMMAGINE CHE DESCRIVE LE VARIE PARTI DI UNA CARTA DI MAGIC]
+<p>Which are the attributes that compose a Magic the Gathering card?
+<img src="./../assets/images/layout_mtg_explained.png" alt="layout" /></p>
+
+<ol>
+  <li><strong>Title</strong> defines the name of the card</li>
+  <li><strong>CMC</strong> defines the mana cost of the card; in the most common cases, it’s composed by a number, which refers to the
+colorless mana, and a mana symbol, which defines the colored mana needed to cast the spells. Sometimes the mana cost
+can have strange variations, such
+has <a href="https://cards.scryfall.io/png/front/f/f/ffd079d8-b191-4f54-bb04-427b3736f745.png?1562949161">hybrid mana costs</a>,
+<a href="https://cards.scryfall.io/large/front/9/9/995486ce-58bb-4753-a812-0ca73ef1a235.jpg?1562880052">Pyrexian mana cost</a>
+or
+even <a href="https://cards.scryfall.io/large/front/0/1/0186a93c-000a-4b8f-983d-e1471185dc1f.jpg?1562492051">no mana cost</a>!</li>
+  <li><strong>Artwork</strong> defines the image of the card, it occupies the most space on the card.</li>
+  <li><strong>Type</strong> defines the type of the card: most of the cards belongs to supertype such as Creature, Sorcery, Enchantment,
+Artifact, Land or Planeswalker, but multiple others were forged.</li>
+  <li><strong>Symbol</strong> defines the symbol of the edition and the rarity of the card based on irs color (black for common, silver
+for uncommon, gold for rare and magenta for mythic rare).</li>
+  <li><strong>Text</strong> defines the ability of the card: it can
+be <a href="https://cards.scryfall.io/large/front/3/d/3d09a0c7-3934-4bf3-a56a-5b670b168eee.jpg?1559593430">non existent</a>, <a href="https://cards.scryfall.io/large/front/8/f/8f973d6b-4a34-4b0e-b092-ead05bf2e535.jpg?1562762506">
+almost
+non-existent</a> or
+<a href="https://cards.scryfall.io/large/front/e/4/e41cf82d-3213-47ce-a015-6e51a8b07e4f.jpg?1572490640">very long</a>. The card
+may describe the in-game characteristic of the card and/or the lore of it.</li>
+  <li><strong>Power/Toughness (P/T)</strong> are characteristics unique to creatures that defines how much damage the creature deal and
+how much damage the creature can suffer before being send to the graveyard.</li>
+</ol>
+
+<p>In this blogpost, I’m going to briefly describe how generate all the aforementioned characteristic of a card using AI.
 In this application, we’re going to use an ensamble approch, using two models in order to render the card: ChatGPT for
 generating all the attributes of the card, and StableDiffusion for generating the artwork. As for the layout, we used a
 blank one that we’re updating with the generations.</p>
@@ -146,13 +173,139 @@ efficacy if the image is resized or rotated</p>
 <p>Here I’ll quickly describe the main parts of the process with a brief description of the approaches used:</p>
 
 <h3 id="attribute-generation">Attribute generation</h3>
-<p><strong>How I did it…</strong></p>
+
+<p>The card’s attribute are generated using ChatGPT queried with a very specific system prompt, asking the design of cards
+with very strict rules and defining all the requirements. In conjunction, an example card’s structure is passed to the
+model.
+Then, another prompt is declared, that defines the domain of the card generation: in this case, I’ll decide to use Harry
+Potter.</p>
+
+<p><img src="./../assets/images/chatgpt.png" alt="ChatGPT main points" /></p>
+
 <h3 id="artwork-generation">Artwork generation</h3>
-<p><strong>How I did it…</strong></p>
+
+<p>The card’s artwork is generated simply using the card’s title; more complex approaches can be used, for example using a
+more detailed prompt.</p>
+
+<p><img src="./../assets/images/stable_diffusion.png" alt="StableDiffusion main points" /></p>
+
 <h3 id="layout-generation">Layout generation</h3>
-<p><strong>How I did it…</strong></p>
+
+<p>Layout generation is as simple as it is: it has been used a blank card layout, where all the attributes are hot encoded
+inside. This method, which is very fast, is also very error-prone, but i wanted to be more focused on the AI part
+instead of this one.
+<img src="./../assets/images/layout.png" alt="Layout generation main points" /></p>
+
 <h3 id="final-result">Final Result</h3>
-<p><strong>What I generate…</strong></p>
+
+<p>Card generated are totally fine and more or less follows the plot of the first books.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Card</th>
+      <th>Title</th>
+      <th>CMC</th>
+      <th>TYPE</th>
+      <th>TEXT</th>
+      <th>RARITY</th>
+      <th>CMC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/hogwarts_letter.png" alt="Hogwarts Letter" /></td>
+      <td>Hogwarts Letter</td>
+      <td>0</td>
+      <td>Artifact</td>
+      <td>When Hogwarts Letter enters the battlefield, search your library for a basic land card and put it into your hand. Then shuffle your library. 1: Put Hogwarts Letter on top of your library. Activate this ability only if you control a creature named Harry Potter.</td>
+      <td>Uncommon</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/firebolt.png" alt="Firebolt" /></td>
+      <td>Firebolt</td>
+      <td>0</td>
+      <td>Artifact</td>
+      <td>Equipped creature has flying and haste. At the beginning of your ‘upkeep, if you control a creature named Harry Potter, untap Firebolt. Equip {3}</td>
+      <td>Rare</td>
+      <td>2RU</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/accio.png" alt="accio" /></td>
+      <td>Accio</td>
+      <td>0</td>
+      <td>Sorcery</td>
+      <td>Search your library for a creature card named Hedwig and put it onto the battlefield. Then shuffle your library. If you control a creature named Harry Potter, draw a card.</td>
+      <td>Rare</td>
+      <td>G</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/dobby.png" alt="dobby" /></td>
+      <td>Dobby, the Free Elf</td>
+      <td>0</td>
+      <td>Legendary Creature — Elf</td>
+      <td>Whenever a creature enters the battlefield under your control, you may tap or untap target permanent. If you control a creature named Harry Potter, creatures you control gain indestructible until end of turn.</td>
+      <td>Rare</td>
+      <td>1W</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/mirror.png" alt="mirror" /></td>
+      <td>Mirror of Erised</td>
+      <td>0</td>
+      <td>Artifact</td>
+      <td>{2}, {T}: Choose a creature you control. You gain life equal to that creature’s power. If you control a creature named Albus Dumbledore, draw a card.</td>
+      <td>Rare</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/petrificus_totalis.png" alt="petrificus" /></td>
+      <td>Petrificus Totalus</td>
+      <td>0</td>
+      <td>Enchantment — Aura</td>
+      <td>Enchant creature. Enchanted creature doesn’t untap during its  controller’s untap step. If you control a creature named Hermione Granger, you may draw a card at the beginning of your upkeep.</td>
+      <td>Uncommon</td>
+      <td>2U</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/patronum.png" alt="expecto" /></td>
+      <td>Expecto Patronum</td>
+      <td>0</td>
+      <td>Instant</td>
+      <td>Exile target attacking creature. If you control a creature named Harry Potter or a creature named Hermione Granger, you may draw a card.</td>
+      <td>Uncommon</td>
+      <td>2UW</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/poly_potion.png" alt="poly_potion" /></td>
+      <td>Polyjuice Potion</td>
+      <td>0</td>
+      <td>Enchantment — Aura</td>
+      <td>Enchant creature. As Polyjuice Potion enters the battlefield, choose a creature type other than Human. Enchanted creature is the chosen type and has all abilities of the chosen type. If you control a creature named Ron Weasley, you may draw a card at the beginning of your upkeep.</td>
+      <td>Uncommon</td>
+      <td>1UB</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/sectusempra.png" alt="sectusempra" /></td>
+      <td>Sectusempra</td>
+      <td>0</td>
+      <td>Instant</td>
+      <td>Target creature gets -X/-X until end of turn, where X is the number of cards in your hand. If you control a creature named Draco Malfoy, Sectumsempra deals damage to that creature instead.</td>
+      <td>Rare</td>
+      <td>2B</td>
+    </tr>
+    <tr>
+      <td><img src="./../assets/generating_cards_ai/willow.png" alt="willow" /></td>
+      <td>Whomping Willow</td>
+      <td>0</td>
+      <td>Creature - Treefolk</td>
+      <td>Defender, reach. Whenever Whomping Willow blocks or becomes blocked, it deals damage equal its toughness to target creature. If you control a creature named Neville Longbottom, Whomping Willow assigns no combat damage this turn.</td>
+      <td>Uncommon</td>
+      <td>3G</td>
+    </tr>
+  </tbody>
+</table>
+
 <h1 id="demo">Demo</h1>
 
 <p><a href="https://colab.research.google.com/drive/1aC55dHbKf5kx4olqzopvT3CLqlLxzVgH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></p>
@@ -163,7 +316,7 @@ efficacy if the image is resized or rotated</p>
 on <a href="https://colab.research.google.com/drive/1aC55dHbKf5kx4olqzopvT3CLqlLxzVgH?usp=sharing">Google Colab</a> or as
 a <a href="">Huggingface Space</a>; as mentioned, in
 order
-to run the code and generate cards, you need to have a OpenAI token. ChatGPT is offered as a pay-per-use service, so 
+to run the code and generate cards, you need to have a OpenAI token. ChatGPT is offered as a pay-per-use service, so
 <strong>every generation costs</strong>: the price is by no mean expensive, but it’s a good thing to have in mind while playing with
 the
 demo :)</p>
@@ -181,10 +334,15 @@ experience in it.</p>
 
 <h2 id="review-history">Review history</h2>
 
-<p><em>2023-04-14 19:00:00</em> : First publication</p>
+<p><em>2023-05-15 18:00:00</em> : First draft</p>
 
-<p><strong>My articles will always be open source, free and reproducible. My writings will always be discussion material, and my
-opinions can be debated and refuted.</strong></p>
+<hr />
+<blockquote>
+  <p>My articles will always be open source, free and reproducible. My writings will always be discussion material, and
+my
+opinions can be debated and refuted.</p>
+</blockquote>
+
 
   </div><a class="u-url" href="/AI/generating_pauper_cards" hidden></a>
 </article>

@@ -197,7 +197,7 @@ experience in it.
 _2023-05-15 18:00:00_ : First draft
 
 ----
-> **My articles will always be open source, free and reproducible. My writings will always be discussion material, and
+> My articles will always be open source, free and reproducible. My writings will always be discussion material, and
 my
-opinions can be debated and refuted.**
+opinions can be debated and refuted.
 
