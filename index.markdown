@@ -4,3 +4,4 @@
 
 layout: home
 ---
+![counter](https://raw.githubusercontent.com/chumpblocckami/vedalken_count/f5169362f1d07ea4df7e4d841a7dca5485e56e12/svg/profile/badge.svg)
