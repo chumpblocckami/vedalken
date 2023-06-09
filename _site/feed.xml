@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-09T17:17:34+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Vedalken</title><subtitle>Mining Pauper one alghoritm at time.</subtitle><entry><title type="html">Pre Paupergeddon Pisa 2023</title><link href="http://localhost:4000/paupergeddon/pisa/pre" rel="alternate" type="text/html" title="Pre Paupergeddon Pisa 2023" /><published>2023-06-09T10:00:00+02:00</published><updated>2023-06-09T10:00:00+02:00</updated><id>http://localhost:4000/paupergeddon/pisa/pre_paupergeddon_pisa_2023</id><content type="html" xml:base="http://localhost:4000/paupergeddon/pisa/pre"><![CDATA[<h1 id="pre-paupergeddon-pisa-path-opportunities-dangers">Pre Paupergeddon Pisa: Path, Opportunities, Dangers</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-09T17:22:48+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Vedalken</title><subtitle>Mining Pauper one alghoritm at time.</subtitle><entry><title type="html">Pre Paupergeddon Pisa 2023</title><link href="http://localhost:4000/paupergeddon/pisa/pre" rel="alternate" type="text/html" title="Pre Paupergeddon Pisa 2023" /><published>2023-06-09T10:00:00+02:00</published><updated>2023-06-09T10:00:00+02:00</updated><id>http://localhost:4000/paupergeddon/pisa/pre_paupergeddon_pisa_2023</id><content type="html" xml:base="http://localhost:4000/paupergeddon/pisa/pre"><![CDATA[<h1 id="pre-paupergeddon-pisa-path-opportunities-dangers">Pre Paupergeddon Pisa: Path, Opportunities, Dangers</h1>
 
 <p><img src="https://cards.scryfall.io/art_crop/front/1/d/1de43c67-7dfe-4282-b433-4e394366d2e9.jpg?1572489634" alt="Bartered Cow" /></p>
 
@@ -34,9 +34,9 @@ despite the fact that they will be playable at Pisa.</p>
 
 <p>Thanks to <a href="https://twitter.com/jakeAls/status/1659139807602171904">this post</a>, I acknowledged the fact that you can
 go infinite with Ashnod’s Altar, Cauldron Familiar, Tortured Existence, Energy Refractor and two Bartered Cow, so I came
-up with this list:
-<img src="../assets/pre_paupergeddon_pisa/hamburger_storm.png" alt="img.png" />
-<img src="..%2Fassets%2Fpre_paupergeddon_pisa%2Faltar_tron.png" alt="altar_tron.png" />
+up with this list:</p>
+
+<p><img src="./../../assets/pre_paupergeddon_pisa/hamburger_storm.png" alt="hamburger_storm.png" />
 The idea is to have a Tortex plan with cheap, intelligent creature that can advance the game in midrange mode; the idea
 is to dig the deck using draw engine such as Village Rite and Corrupted Conviction, playing the value game until
 assembling the one and only combo of Ashnod’s Altar, Energy Refractor, Tortured Existence, Cauldron Familiar and double
@@ -78,7 +78,7 @@ didn’t have much time for brewing!</li>
 
 <h2 id="ug-arcane">UG Arcane</h2>
 
-<p><img src="../assets/pre_paupergeddon_pisa/ug_arcane.png" alt="img.png" /></p>
+<p><img src="./../../assets/pre_paupergeddon_pisa/ug_arcane.png" alt="img.png" /></p>
 
 <p>This version aim to be faster than the current SOTA version of UG Arcane, playing only cheap enchantment and no
 bounceland. This enables faster mana, but needs more cards in order to comboing off, so more slot in the deckslists are
@@ -132,7 +132,7 @@ other cards; it improves, but not in a very relevant way.</li>
 
 <h2 id="balena-combo">Balena Combo</h2>
 
-<p><img src="../assets/pre_paupergeddon_pisa/balena.png" alt="img.png" /></p>
+<p><img src="./../../assets/pre_paupergeddon_pisa/balena.png" alt="img.png" /></p>
 
 <p>I realized after burning multiple playpoints, that the combo Whale + Helix + Thoot is not that great, since it requires
 a setup turn (Balena doesn’t have haste) and it is too fragile, so I opted for a completely new approach, with Rites as
@@ -156,7 +156,7 @@ wincon.</p>
 
 <h2 id="rg-familiar">RG Familiar</h2>
 
-<p><img src="../assets/pre_paupergeddon_pisa/rg_familiar.png" alt="img.png" /></p>
+<p><img src="./../../assets/pre_paupergeddon_pisa/rg_familiar.png" alt="img.png" /></p>
 
 <p>The idea of the deck is, on turn 3, play Familiar/Goblin paired with a ritual, and from there go big in value, both
 drawing cards or ramping; the finisher is First day of class casted multiple times with Ardent Elementalist and attack
@@ -178,7 +178,7 @@ with multiple hasty creatures.</p>
 
 <h2 id="pinger-storm">Pinger Storm</h2>
 
-<p><img src="../assets/pre_paupergeddon_pisa/pingers_storm.png" alt="img.png" />
+<p><img src="./../../assets/pre_paupergeddon_pisa/pingers_storm.png" alt="img.png" />
 This is my wet dream, but it’s probably it will remain so…. the combo is just too fragile, and no available card or
 combination of cards in
 the pool will replace Galvanic Relay.</p>
@@ -200,7 +200,7 @@ ineluctable.</li>
 
 <h2 id="bonus-altar-tron">Bonus: Altar Tron</h2>
 
-<p><img src="../assets/pre_paupergeddon_pisa/altar_tron.png" alt="img.png" />
+<p><img src="./../../assets/pre_paupergeddon_pisa/altar_tron.png" alt="img.png" />
 Not really changed from the last list: the main switches are related to MTGO limitations, such as no infinite life, no
 concession and things like that.</p>
 
@@ -225,7 +225,7 @@ the same.</li>
 
 <h2 id="last-words">Last Words</h2>
 
-<p><img src="../assets/pre_paupergeddon_pisa/decks.png" alt="img.png" />
+<p><img src="./../../assets/pre_paupergeddon_pisa/decks.png" alt="img.png" />
 For Paupergeddon Pisa I’m testing off-meta decks, both for having an edge vs players that doesn’t know what are facing,
 and for having a customized deck that I like to play. I am not sure what to bring to the tournament, so feedback or
 suggestion are welcomed! :)</p>

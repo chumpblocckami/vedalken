@@ -41,8 +41,8 @@ despite the fact that they will be playable at Pisa.
 Thanks to [this post](https://twitter.com/jakeAls/status/1659139807602171904), I acknowledged the fact that you can
 go infinite with Ashnod's Altar, Cauldron Familiar, Tortured Existence, Energy Refractor and two Bartered Cow, so I came
 up with this list:
-![img.png](../assets/pre_paupergeddon_pisa/hamburger_storm.png)
-![altar_tron.png](..%2Fassets%2Fpre_paupergeddon_pisa%2Faltar_tron.png)
+
+![hamburger_storm.png](./../../assets/pre_paupergeddon_pisa/hamburger_storm.png)
 The idea is to have a Tortex plan with cheap, intelligent creature that can advance the game in midrange mode; the idea
 is to dig the deck using draw engine such as Village Rite and Corrupted Conviction, playing the value game until
 assembling the one and only combo of Ashnod's Altar, Energy Refractor, Tortured Existence, Cauldron Familiar and double
@@ -78,7 +78,7 @@ range of archetypes.
 
 ## UG Arcane
 
-![img.png](../assets/pre_paupergeddon_pisa/ug_arcane.png)
+![img.png](./../../assets/pre_paupergeddon_pisa/ug_arcane.png)
 
 This version aim to be faster than the current SOTA version of UG Arcane, playing only cheap enchantment and no
 bounceland. This enables faster mana, but needs more cards in order to comboing off, so more slot in the deckslists are
@@ -126,7 +126,7 @@ an unexciting 2-2.
 
 ## Balena Combo
 
-![img.png](../assets/pre_paupergeddon_pisa/balena.png)
+![img.png](./../../assets/pre_paupergeddon_pisa/balena.png)
 
 I realized after burning multiple playpoints, that the combo Whale + Helix + Thoot is not that great, since it requires
 a setup turn (Balena doesn't have haste) and it is too fragile, so I opted for a completely new approach, with Rites as
@@ -146,7 +146,7 @@ wincon.
 
 ## RG Familiar
 
-![img.png](../assets/pre_paupergeddon_pisa/rg_familiar.png)
+![img.png](./../../assets/pre_paupergeddon_pisa/rg_familiar.png)
 
 The idea of the deck is, on turn 3, play Familiar/Goblin paired with a ritual, and from there go big in value, both
 drawing cards or ramping; the finisher is First day of class casted multiple times with Ardent Elementalist and attack
@@ -164,7 +164,7 @@ with multiple hasty creatures.
 
 ## Pinger Storm
 
-![img.png](../assets/pre_paupergeddon_pisa/pingers_storm.png)
+![img.png](./../../assets/pre_paupergeddon_pisa/pingers_storm.png)
 This is my wet dream, but it's probably it will remain so.... the combo is just too fragile, and no available card or
 combination of cards in
 the pool will replace Galvanic Relay.
@@ -182,7 +182,7 @@ the pool will replace Galvanic Relay.
 
 ## Bonus: Altar Tron
 
-![img.png](../assets/pre_paupergeddon_pisa/altar_tron.png)
+![img.png](./../../assets/pre_paupergeddon_pisa/altar_tron.png)
 Not really changed from the last list: the main switches are related to MTGO limitations, such as no infinite life, no
 concession and things like that.
 
@@ -203,7 +203,7 @@ concession and things like that.
 
 ## Last Words
 
-![img.png](../assets/pre_paupergeddon_pisa/decks.png)
+![img.png](./../../assets/pre_paupergeddon_pisa/decks.png)
 For Paupergeddon Pisa I'm testing off-meta decks, both for having an edge vs players that doesn't know what are facing,
 and for having a customized deck that I like to play. I am not sure what to bring to the tournament, so feedback or
 suggestion are welcomed! :)
