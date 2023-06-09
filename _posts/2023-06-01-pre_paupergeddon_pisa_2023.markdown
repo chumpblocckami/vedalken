@@ -42,7 +42,7 @@ Thanks to [this post](https://twitter.com/jakeAls/status/1659139807602171904), I
 go infinite with Ashnod's Altar, Cauldron Familiar, Tortured Existence, Energy Refractor and two Bartered Cow, so I came
 up with this list:
 ![img.png](../assets/pre_paupergeddon_pisa/hamburger_storm.png)
-
+![altar_tron.png](..%2Fassets%2Fpre_paupergeddon_pisa%2Faltar_tron.png)
 The idea is to have a Tortex plan with cheap, intelligent creature that can advance the game in midrange mode; the idea
 is to dig the deck using draw engine such as Village Rite and Corrupted Conviction, playing the value game until
 assembling the one and only combo of Ashnod's Altar, Energy Refractor, Tortured Existence, Cauldron Familiar and double
