@@ -35,7 +35,7 @@ cards.
 # Approach
 
 Which are the attributes that compose a Magic the Gathering card?
-![layout](./../assets/images/layout_mtg_explained.png)
+![layout](../assets/generating_cards_ai/layout_mtg_explained.png)
 
 1. **Title** defines the name of the card
 2. **CMC** defines the mana cost of the card; in the most common cases, it's composed by a number, which refers to the
@@ -133,21 +133,21 @@ model.
 Then, another prompt is declared, that defines the domain of the card generation: in this case, I'll decide to use Harry
 Potter.
 
-![ChatGPT main points](./../assets/images/chatgpt.png)
+![ChatGPT main points](../assets/generating_cards_ai/chatgpt.png)
 
 ### Artwork generation
 
 The card's artwork is generated simply using the card's title; more complex approaches can be used, for example using a
 more detailed prompt.
 
-![StableDiffusion main points](./../assets/images/stable_diffusion.png)
+![StableDiffusion main points](../assets/generating_cards_ai/stable_diffusion.png)
 
 ### Layout generation
 
 Layout generation is as simple as it is: it has been used a blank card layout, where all the attributes are hot encoded
 inside. This method, which is very fast, is also very error-prone, but i wanted to be more focused on the AI part
 instead of this one.
-![Layout generation main points](./../assets/images/layout.png)
+![Layout generation main points](../assets/generating_cards_ai/layout.png)
 
 ### Final Result
 
