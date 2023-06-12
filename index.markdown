@@ -4,4 +4,5 @@
 
 layout: home
 ---
-![counter](https://raw.githubusercontent.com/chumpblocckami/vedalken_count/f5169362f1d07ea4df7e4d841a7dca5485e56e12/svg/profile/badge.svg)
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fchumpblocckami%2Fvedalken&count_bg=%23000000&title_bg=%235E5BFF&icon=niconico.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://hits.seeyoufarm.com)
