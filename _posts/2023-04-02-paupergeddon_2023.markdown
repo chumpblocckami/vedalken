@@ -118,7 +118,7 @@ I choose to build the deck based on few, well-defined pillars:
 
 6. _Don't try to win against every archetype and normalize losing, but always have a plan_: for this part I'll borrow
    the words from a Bryant Cook tweets, that sum ups perfectly my thoughts:
-   ![cant_beat_anythin.jpeg](..%2Fassets%2Fpaupergeddon%2F2023%2Flecco%2Fcant_beat_anythin.jpeg)
+![cant_beat_anythin.jpeg](./../../../assets/paupergeddon/2023/lecco/cant_beat_anythin.jpeg)
 
 With the aforementioned statements in mind, let's see the decklist my testing team and I came up with:
 ![The Main](https://pbs.twimg.com/media/FsLrghCWAAAM94t?format=jpg&name=large)
@@ -434,7 +434,7 @@ utility can be used against annoying graveyard interactions.
   some problems: it takes too many sideboard slots, it's offcolor, and sometimes the red deck win despite the presence
   of the protected creature. So in the end, we chose to resign to our destiny and cut the girl.
 
-![The deck](../assets/paupergeddon/2023/lecco/image.png)
+![The deck](./../../../assets/paupergeddon/2023/lecco/image.png)
 *For those familiar with decklist in MTGO layout, this is the screenshot of the deck*
 
 ### Very bonus: Sideboard strategy
@@ -530,7 +530,7 @@ N.B: _this is probably too generic, but before the event i did it so why not inc
 ### Match up ranking visual view:
 
 
-![altar_tron_matchup.png](..%2Fassets%2Fpaupergeddon%2F2023%2Flecco%2Faltar_tron_matchup.png)
+![altar_tron_matchup.png](./../../../assets/paupergeddon/2023/lecco/altar_tron_matchup.png)
 
 This ranking may vary according to sideboard choices, player skill and overall luck.
 This chart is the result of my experience with the deck, so this ranking might not totally adhere with the reality
@@ -647,7 +647,7 @@ descriptions of the game played written in tournaments report, but they are more
     Thunder (one of the **Tronest** thing I've ever seen). G2 and G3 I was able to cast multiple Duress and Nihil
     Spellbomb, removing key pieces from his hands and graveyard; resulting me the Paupergeddon 2023 champion. Evvai! :)
 
-![top4.jpeg](..%2Fassets%2Fpaupergeddon%2F2023%2Flecco%2Ftop4.jpeg)
+![top4.jpeg](./../../../assets/paupergeddon/2023/lecco/top4.jpeg)
 
 *[Bragioto](https://twitter.com/bragioto), [AAdeptoTerra](https://twitter.com/A_AdeptoTerra) and me right before playing
 for top4. We all are in the same testing team!*
