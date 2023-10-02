@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Altar Tron: WOE update"
-date: 2023-08-01 18:00:00 +0200
+date: 2023-10-01 18:00:00 +0200
 categories: article
 published: True
 permalink: /altar/post-woe-release
@@ -89,7 +89,7 @@ lie 68% win rate combined paper and online.
 
 ## The deck
 
-![the deck](_site/altar-quick-update/the_list.png)
+![the deck](./../../../assets/woe_update/the_list.png)
 
 > The list I'm currently playing
 
@@ -136,7 +136,7 @@ My advice?
 
 ## Review history
 
-_2023-09-01 18:00:00_ : First publication
+_2023-10-01 18:00:00_ : First publication
 
 ----
 > My articles will always be open source, free and reproducible. My writings will always be discussion material, and my
