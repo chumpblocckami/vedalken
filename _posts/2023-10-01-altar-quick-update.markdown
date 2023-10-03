@@ -54,7 +54,7 @@ That being said, I faced multiple times these 'new' decks, and this is the concl
   matches I was able to take down were non-game where he didn't draw nothing relevant and I quickly assemble tron + the
   combo. This match up concludes when ATG connects, no matter your plays.
   **Record**: 1-4
--
+
 - **MonoR Kuldotha**: '_____ Goblin' gives the deck another busted opening, where a T3 goblin into whatever is just a
   match lost. MonoR historically was a 50/50 match up, but the addition of card draw and this ritual boi strengthrn the
   match up on monoR side. Altar now lose on average to t1 Swiftspear + multiple spells, t3 ____ Goblin + whatever and/or
@@ -136,7 +136,8 @@ My advice?
 
 ## Review history
 
-_2023-10-01 18:00:00_ : First publication
+_2023-10-03 10:00:00_ : Some layout fixes
+_2023-10-02 18:00:00_ : First publication
 
 ----
 > My articles will always be open source, free and reproducible. My writings will always be discussion material, and my
