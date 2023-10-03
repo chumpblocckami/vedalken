@@ -55,9 +55,9 @@ That being said, I faced multiple times these 'new' decks, and this is the concl
   combo. This match up concludes when ATG connects, no matter your plays.
   **Record**: 1-4
 
-- **MonoR Kuldotha**: '_____ Goblin' gives the deck another busted opening, where a T3 goblin into whatever is just a
+- **MonoR Kuldotha**: 'Sticker Goblin' gives the deck another busted opening, where a T3 goblin into whatever is just a
   match lost. MonoR historically was a 50/50 match up, but the addition of card draw and this ritual boi strengthrn the
-  match up on monoR side. Altar now lose on average to t1 Swiftspear + multiple spells, t3 ____ Goblin + whatever and/or
+  match up on monoR side. Altar now lose on average to t1 Swiftspear + multiple spells, t3 Sticker Goblin + whatever and/or
   combinations of these.
   **Record**: 2-5
 
